@@ -1,0 +1,408 @@
+name,id,description,category,secondary_category
+"Analog Clock",AnalogClock,"A fully customizable analog clock...",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Background Grid",BackgroundGrid,"A fully customizable full-screen grid.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Black Bar",Black-Bar-Widget,"Adds a 5 pixel tall black bar at the bottom...",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"CPU Usage Bar",CPU-Usage-bar-Widget,"Display total CPU usage with a progress bar...",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"CPU Circle Widget",Circular-CPU,"A widget that displays your CPU usage in a fancy circle",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Circle RAM Widget",Circular-RAM,"A widget that displays your RAM usage in a fancy circle",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"DiskUsage bar",DiskUsage-Bar,"A Disk Usage bar widget for Übersicht.",System Monitoring and Resource Usage,None
+"Docker Machines",Docker-Uber-Stats,"See running docker machines at a glance.",System Monitoring and Resource Usage,None
+"NetworkInfo",NetworkInfo,"Displays current Ethernet and Wi-Fi status...",System Monitoring and Resource Usage,None
+"Simple Keyboard/Mouse Stats",Simple-Uber-Device-Status,"Minimal bluetooth device stats.",System Monitoring and Resource Usage,None
+"Simple Disk Stats",Simple-Uber-Disk-Usage,"Minimal occupied space status.",System Monitoring and Resource Usage,None
+"Simple System Battery Stats",Simple-Uber-System-Status,"Minimal machine battery status.",System Monitoring and Resource Usage,None
+"Disk Usage bar",Ubersicht-DiskUsage-bar,"disk usage bar meter.",System Monitoring and Resource Usage,None
+"WiFi SSID",WiFi-SSID-Widget,"Displays the current connected wifi network SSID",System Monitoring and Resource Usage,None
+"wifi-tx-speed",WiFi-Tx-Speed,"Collects and displays the current actual transmission speed...",System Monitoring and Resource Usage,None
+"battery",battery,"Display current battery percentage and status",System Monitoring and Resource Usage,None
+"batteryDetails",batteryDetails.widget,"Displays battery, charge percentage and charge state",System Monitoring and Resource Usage,None
+"Bluetooth Battery bar",bluetooth-battery-bar,"A Bluetooth Battery Usage bar widget for Übersicht.",System Monitoring and Resource Usage,None
+"Circular Liquid Battery Widget",circular-liquid-battery-widget,"An animated circular liquid battery widget",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"uber-cjdns",cjdns,"A widget to test ping times with CJDNS",System Monitoring and Resource Usage,None
+"macos-version-and-uptime-widget",macos-version-and-uptime-widget,"A widget to display macOS name, version, build and uptime...",System Monitoring and Resource Usage,None
+"Mac OS Version",Mac-OS-Version,"A widget to display macOS name, version, build and uptime...",System Monitoring and Resource Usage,None
+"Desktop Neofetch",ubersicht-neofetch,"Neofetch output on your desktop!",System Monitoring and Resource Usage,None
+"FastFetch",FastFetch,"Fastfetch is a command-line tool designed to display system information...",System Monitoring and Resource Usage,None
+"Mac Fan Speed",fan-speed.widget,"MacbookPro 2019 fan speed for two fan model.",System Monitoring and Resource Usage,None
+"NetSysInfo",NetSysInfo-Widget-for-MacOS,"A minimal yet powerful Übersicht widget that displays live system info...",System Monitoring and Resource Usage,None
+"Online Status Checker",Ubersicht-Online-Checker,"Displays your internet connection status",System Monitoring and Resource Usage,None
+"Docker Widget",ubersicht-docker-widget,"A widget to display Docker containers",System Monitoring and Resource Usage,None
+"Fancy DateTime",FancyDateTime,"Übersicht widget for displaying current time and date",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Hangul Square Clock",Hangu-Word-Clock,"Übersicht widget for displaying current time in Korean",Time and Calendar Displays,Informational and Educational Displays
+"JapaneseCalendar",JapaneseCalendar-widget,"Display a simple calendar for the current month in Japanese.",Time and Calendar Displays,Informational and Educational Displays
+"SimpleDate",SimpleDate,"A widget that displays the current date",Time and Calendar Displays,None
+"Time in words",Time-in-Words,"Displays the current time in words.",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"World Clock",WorldClock,"A widget that shows multiple timezones in either horizontal or vertical orientation",Time and Calendar Displays,None
+"calendar",calendar,"Display a simple calendar for the current month.",Time and Calendar Displays,None
+"French revolutionary calendar",french-revolutionary-calendar,"A calendar widget which displays the current day in the French revolutionary calendar.",Time and Calendar Displays,Informational and Educational Displays
+"microcalendar",microcalendar,"Tiny calendar widget to display iCal Events in the right/left space next to the macOS Dock",Time and Calendar Displays,Productivity and Task Management
+"Discordian date",discordian-date.widget,"Shows the current discordian date and holy day, if there is one.",Time and Calendar Displays,Informational and Educational Displays
+"World Clock Widget",world-clock-widget,"The missing world clock widget for Übersicht.",Time and Calendar Displays,None
+"Cal Inner Clock",ubersicht-cal-inner-clock-widget,"Simple calendar with division of months marking days of the week and full date display...",Time and Calendar Displays,None
+"Time Craft",Time-Craft,"Minimalistic and Beautiful Clock widget for macOS",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Yet another simple calendar",ubersicht-yet-another-simple-calendar-widget,"Shows a list of events for a given day.",Time and Calendar Displays,Productivity and Task Management
+"Reminders",RemindersWidget,"Display pending Reminders.",Productivity and Task Management,None
+"Storyline Productivity Schedule",SPS,"Displays your daily SPS for the Day",Productivity and Task Management,None
+"ToDo",ToDo,"a small widget to display ToDo’s from a .txt file",Productivity and Task Management,None
+"Taskwarrior Widget",TaskwarriorWidget,"Displays the list of pending tasks from Taskwarrior",Productivity and Task Management,None
+"Wunderlist Tasks",WunderlistTasksWidget,"Display Wunderlist open tasks",Productivity and Task Management,None
+"GitFinder",GitFinder,"Scan visible Finder Windows and display Git Projects Statistics",Productivity and Task Management,None
+"CircleCI status",circleci-widget,"Keep an eye on your running builds and their status.",Productivity and Task Management,None
+"Simple shortcuts",ubersicht-shortcut-widget,"Shows a list of keyboard shortcuts.",Productivity and Task Management,None
+"Ubersicht-ToDo-Widget",Ubersicht-ToDo-Widget,"Übersicht widget that displays an interactive todo list onto the desktop",Productivity and Task Management,None
+"things3",ubersicht-things3,"Show your today things on desktop",Productivity and Task Management,None
+"Task Deadline",task-deadline-with-rtm,"This is a Übersicht widget that displays your tasks deadline...",Productivity and Task Management,None
+"Memos",Memos.widget,"Keep memos on your desktop",Productivity and Task Management,None
+"icalPal",icalPal.widget,"Display calendar events using icalPal",Productivity and Task Management,Time and Calendar Displays
+"CoverArt",CoverArt,"copies the current album cover from iTunes to display on desktop",Media and Entertainment,Aesthetic and Visual Enhancements
+"SolTunes",SolTunes.widget,"Solarized display of iTunes song info with progress bar",Media and Entertainment,Aesthetic and Visual Enhancements
+"SpotifyCurrentTrack",Spotify-Current-Track,"Displays current track palying in spotify",Media and Entertainment,None
+"rdio-current-track",Rdio-Widget,"Displays current track played by Rdio",Media and Entertainment,None
+"Plexpy Widget",Plexpy-Ubersicht-Widget,"A simple widget to display current streams from your Plex Server.",Media and Entertainment,None
+"Tautulli Widget",TautulliWidget,"This is a widget that displays what is playing on your Plex server, via Tautulli.",Media and Entertainment,None
+"Xiami FM",XiamiFM,"A widget for display now playing for Xiami FM",Media and Entertainment,None
+"Aoede",aoede,"Monstercat-esque music widget",Media and Entertainment,Aesthetic and Visual Enhancements
+"Bar",bar,"A menubar replacement that displays basic information and the currently playing song...",Media and Entertainment,System Monitoring and Resource Usage
+"Music Craft",Music-Craft,"Minimalistic and Beautiful Music widget for Apple Music on macOS",Media and Entertainment,Aesthetic and Visual Enhancements
+"Playbox",Playbox.widget,"This widget shows information about currently playing song from either iTunes or Spotify.",Media and Entertainment,None
+"btceur",btc-eur,"Get the last bitcoin price. Now, in EUR (€)",Financial and Cryptocurrency Tracking,None
+"Bitcoin Prices",btc-prices,"Shows several exchange rate prices for different currencies.",Financial and Cryptocurrency Tracking,None
+"btc",btc,"Get current bitcoin price in USD.",Financial and Cryptocurrency Tracking,None
+"Crypto Market Cap",CryptoMarketCap,"Widget to get the latest cryptocurrency market cap.",Financial and Cryptocurrency Tracking,None
+"Stock quotes widget",Stock-quotes-Widget,"Displays stock quotes in a table format with color-coding of wins/loss",Financial and Cryptocurrency Tracking,None
+"Stock Ticker Widget",StockTickerWidget,"Stocks widget using Yahoo Finance.",Financial and Cryptocurrency Tracking,None
+"Bitcoin Mempool",bitcoin-mempool.widget,"Shows information about the Bitcoin mempool",Financial and Cryptocurrency Tracking,None
+"Bitcoin Moscow Time",bitcoin-moscow-time.widget,"Shows the Bitcoin Moscow Time in different currencies",Financial and Cryptocurrency Tracking,None
+"Bitcoin price",bitcoin-price.widget,"Shows the Bitcoin price in different currencies",Financial and Cryptocurrency Tracking,None
+"uebersicht-BinanceCryptoPrices",uebersicht-BinanceCryptoPrices,"Übersicht widget that displays cryptocoin prices from Binance.",Financial and Cryptocurrency Tracking,None
+"BDT Currency Converter",bdt-currency-converter.widget,"This widget is using exchangeratesapi api to get currency and convert them into Bangladesh Taka...",Financial and Cryptocurrency Tracking,None
+"NightShades",Nightshades,"This widget alows to quickly apply a dark overlay or 'Shades' to the wallpaper...",Aesthetic and Visual Enhancements,None
+"Matrix",Ubersicht-Matrix,"This widget allows to set a matrix-like falling code visualization to your desktop background...",Aesthetic and Visual Enhancements,None
+"Animated Backgrounds",animated-background,"Adds a floating multi-part background.",Aesthetic and Visual Enhancements,None
+"bingwall",bingwall,"bing wallpaper widget",Aesthetic and Visual Enhancements,External Service Integration
+"Blur",blur-widget,"Create background blurred zones",Aesthetic and Visual Enhancements,None
+"Daily Background Wallpaper",backgroundwidget,"Will pull daily photos from bings photos of the day and set as your wallpaper",Aesthetic and Visual Enhancements,External Service Integration
+"Luminous Time",LuminousTime,"An animated gradient background, time widget",Aesthetic and Visual Enhancements,Time and Calendar Displays
+"Partical Js",uebersicht-particals,"Partical js, on your desktop!",Aesthetic and Visual Enhancements,None
+"Aerial - Apple TV Screensavers for Übersicht",uebersicht-aerial,"Streams Apple TV screensavers to your desktop.",Aesthetic and Visual Enhancements,External Service Integration
+"wallpaper-widget",wallpaper-widget,"A widget that allows you to set wallpaper as a picture or video (Live Wallpaper).",Aesthetic and Visual Enhancements,None
+"Vintage Apple",vintage-apple.widget,"Some happy, vintage flair for your modern Mac.",Aesthetic and Visual Enhancements,None
+"Daily Random Kanji",Daily-Random-Kanji,"Shows a new random Kanji everyday",Informational and Educational Displays,None
+"daily bible verse",DailyBibleVerse,"a daily bible verse from crossway esv",Informational and Educational Displays,None
+"Mandarin Chinese Word Of The Day",Mandarin-Chinese-Word-Of-The-Day-widget,"This widget displays a chinese word of the day along with pinyin for pronunciation...",Informational and Educational Displays,None
+"randomQuranAyah",RandomQuranAyah-ubersicht-widget,"A widget that displays a random quran ayah everyday",Informational and Educational Displays,None
+"Stoic Quote Widget",ubersicht-stoic-widget,"A widget that shwos hundreds of quotes ina repsonsive corner of your mac desktop",Informational and Educational Displays,None
+"Today",Today,"A small collection of widgets that show daily information: Today's Date, Today in History...",Informational and Educational Displays,Time and Calendar Displays
+"CurrLocation",CurrLocation,"Displays the city and state for the current public IP address...",External Service Integration,None
+"RSSs widget",RSSs_Ubersicht_Widget,"Display items from multiple RSS feeds",External Service Integration,None
+"yr4ubersicht",Yr4u,"48h forecast display from yr",External Service Integration,None
+"air-quality",air-quality.widget,"Show air quality index from aqicn.org",External Service Integration,None
+"Authentic Weather",authentic-weather,"widget of the most honest weather app",External Service Integration,None
+"Strava Progress",Strava.widget,"This widget grabs your weekly and yearly biking stats from Strava...",External Service Integration,None
+"Youtube",Youtube-Channel,"Display infos of an Youtube channel.",External Service Integration,None
+"Twitch widget",WidgetTwitch,"Display your favorite twitch channels activity.",External Service Integration,None
+"Oura chart",ubersicht-oura,"Chart with the last 15 days of your sleep / deep sleep / readiness on oura.",External Service Integration,None
+"ubersicht-unread-gmail",ubersicht-unread-gmail,"Ubersicht Gmail Checker Written in Rust asynchronously using the Gmail Api",External Service Integration,None
+"Monit",Ubersicht-Monit,"Show status of instances monitored with monit.",External Service Integration,None
+"Gotify",Ubersicht-Gotify,"Receive Gotify push notification directly on your desktop.",External Service Integration,None
+"Evangelion style dashboard",Evangelion,"Inspired by the comic EVANGELION.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"captain america civil warrior shield",CaptainAmericaCivilWarriorShield,"Civil Warrior Shield with built in Arc Reactor",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"taylor-swift-ubersicht",,"Shows a random Taylor Swift image from Imgur and a quote within a 1989 polaroid frame",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"waifu",uebersicht-live2d,"A live2d waifu",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"XKCD Now",Xkcd-now,"xkcd.com/now widget",Niche and Creative Widgets,Time and Calendar Displays
+"Byrthdays",byrthdays.widget,"Shows upcoming birthdays from your macOS Contacts",Niche and Creative Widgets,Time and Calendar Displays
+"Moon phase",moon-phase.widget,"Shows the current moon phase.",Niche and Creative Widgets,None
+"PostNord",PostNord4Ubersicht,"Shows mail delivery dates for a zip code in sweden",Niche and Creative Widgets,None
+"Helldivers 2 Widget",helldivers.widget,"Helldivers 2 Major Order Tracker",Niche and Creative Widgets,None
+"NASA Astronomy Picture of the Day",ubersicht-nasa-image,"Show NASA's daily astronomy picture on your desktop",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Mond",Mond,"Rainmeter Mond theme for mac übersicht",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Happy Mothersday with Kaya 2023",WalkingFamilyPixelArt,"A short pixelart of my mother an dog with a big heart in the middle",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Solar Propagation Widget",solar-prop.widget,"Displays real-time solar and terrestrial data for radio propagation.",Niche and Creative Widgets,None
+"Timer Widget",countdown-timer.widget,"Countdown days.",Niche and Creative Widgets,Time and Calendar Displays
+"GitHub Contributions Graph",Github-Graph-Ubersicht,"A dark-mode GitHub contributions graph widget for Übersicht...",Niche and Creative Widgets,Productivity and Task Management
+"LeetCode Activity Widget",leetcode,"A sleek Übersicht widget that displays your LeetCode submission calendar...",Niche and Creative Widgets,Productivity and Task Management
+"leetcode-glance",leetcode-glance,"A Übersicht widget to glance at your LeetCode stats.",Niche and Creative Widgets,Productivity and Task Management
+"AnyDo.widget",anydo,"AnyDo widget for Ubersicht",Productivity and Task Management,None
+"app-launcher.widget",app-launcher,"Adds an application launcher to the desktop",Productivity and Task Management,None
+"ubersicht-terminal-widget",,"No description provided",Productivity and Task Management,None
+"Clock & Calendar",ubershicht-clock-calendar,"Display Clock and simple calendar.",Time and Calendar Displays,None
+"nextGame/currentGame-NHL.widget",nextGame_currentGame-NHL,"Widget displaying the next/current game information for your favorite NHL team",Niche and Creative Widgets,External Service Integration
+"ScoreTicker",ScoreTicker,"Displays current sport scores in a ticker-style format",Niche and Creative Widgets,External Service Integration
+"Set-Networking",Set-networking,"a widget to easily set your ip address to Static or DHCP",System Monitoring and Resource Usage,None
+"Sidebar",Sidebar,"The mother of all widgets!",Productivity and Task Management,None
+"ubersicht-binary-clock",binari-clock,"A simple binary clock widget built for the Übersicht desktop extension for Mac OSX",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"BART Departure Times",bart-widget,"Displays the next two times of departure for each BART train leaving a particular stop",External Service Integration,None
+"BatteryCharge",battery-charge,"Displays charge percentage and charge state",System Monitoring and Resource Usage,None
+"Froxcey Sidebar",FroxceySidebar,"Adds sidebar that allows you to download YouTube music and videos...",Media and Entertainment,External Service Integration
+"searchbar",searchbar,"search web by word or URL from your desktop",Productivity and Task Management,External Service Integration
+"Crystal-widgets",crystal-widgets,"A custom set of system monitoring widgets for the Übersicht application.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Upcoming iCal Events",UpcomingEvents,"Shows UpcomingEvents, using icalBuddy and the Mac Calendar",Productivity and Task Management,Time and Calendar Displays
+"Security_Top4_Countdown",Security_Top4_Countdown,"No description provided",Niche and Creative Widgets,Time and Calendar Displays
+"ML_Big3_Countdown",ML_Big3_Countdown,"No description provided",Niche and Creative Widgets,Time and Calendar Displays
+"WeatherTV Widget",WeatherTV.widget,"No description provided",External Service Integration,None
+"weather-show",weather-show,"No description provided",External Service Integration,None
+"Airly Widget",airly-widget,"Airly air quality widget.",External Service Integration,None
+"Anime Quote",anime-quote,"A simple widget that shows a random anime quote",Informational and Educational Displays,Niche and Creative Widgets
+"Apple Stocks",apple-stocks,"Apple Stocks price widget.",Financial and Cryptocurrency Tracking,None
+"Apple Weather",apple-weather,"No description provided",External Service Integration,None
+"BART",bart,"A simple widget that displays real-time BART departure times",External Service Integration,None
+"Basic CPU Usage",basic-cpu-usage,"Displays CPU usage in a simple bar format.",System Monitoring and Resource Usage,None
+"Basic RAM Usage",basic-ram-usage,"Displays RAM usage in a simple bar format.",System Monitoring and Resource Usage,None
+"Battery Indicator",battery-indicator,"A minimal battery indicator widget.",System Monitoring and Resource Usage,None
+"Binary Clock",binary-clock,"A binary clock for Übersicht.",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Bitcoin Widget",bitcoin-widget,"Displays current Bitcoin price and trend.",Financial and Cryptocurrency Tracking,None
+"Calendar Widget",calendar-widget,"A simple calendar widget with event support.",Time and Calendar Displays,Productivity and Task Management
+"Clock Widget",clock-widget,"A simple digital clock widget.",Time and Calendar Displays,None
+"Crypto Tracker",crypto-tracker,"Tracks multiple cryptocurrency prices.",Financial and Cryptocurrency Tracking,None
+"Daily Quote",daily-quote,"Displays a random inspirational quote daily.",Informational and Educational Displays,None
+"Disk Space",disk-space,"Shows available disk space.",System Monitoring and Resource Usage,None
+"Dynamic Wallpaper",dynamic-wallpaper,"Changes wallpaper based on time of day.",Aesthetic and Visual Enhancements,None
+"Event Countdown",event-countdown,"Counts down to a specified event.",Niche and Creative Widgets,Time and Calendar Displays
+"GitHub Activity",github-activity,"Shows recent GitHub activity.",Niche and Creative Widgets,Productivity and Task Management
+"iTunes Now Playing",itunes-now-playing,"Displays current iTunes track.",Media and Entertainment,None
+"Network Speed",network-speed,"Shows upload and download speeds.",System Monitoring and Resource Usage,None
+"News Feed",news-feed,"Displays headlines from a news API.",External Service Integration,None
+"Photo Frame",photo-frame,"Displays a rotating photo gallery.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Notes",quick-notes,"A widget for quick note-taking.",Productivity and Task Management,None
+"Spotify Widget",spotify-widget,"Shows current Spotify track with album art.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Stock Market",stock-market,"Displays real-time stock market data.",Financial and Cryptocurrency Tracking,None
+"System Stats",system-stats,"Shows CPU, RAM, and disk usage in one widget.",System Monitoring and Resource Usage,None
+"Task List",task-list,"A simple task list widget.",Productivity and Task Management,None
+"Time Zone Clock",timezone-clock,"Displays time in multiple time zones.",Time and Calendar Displays,None
+"Todoist Widget",todoist-widget,"Displays tasks from Todoist.",Productivity and Task Management,None
+"Traffic Widget",traffic-widget,"Shows traffic conditions for a specified area.",External Service Integration,None
+"Weather Widget",weather-widget,"Displays current weather and forecast.",External Service Integration,None
+"World Time",world-time,"Shows time in various global cities.",Time and Calendar Displays,None
+"Activity Monitor",activity-monitor,"Displays system activity overview.",System Monitoring and Resource Usage,None
+"Anime Wallpaper",anime-wallpaper,"Displays random anime-themed wallpapers.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"CPU Temp",cpu-temp,"Shows CPU temperature.",System Monitoring and Resource Usage,None
+"Daily Horoscope",daily-horoscope,"Displays daily horoscope for your zodiac sign.",Niche and Creative Widgets,Informational and Educational Displays
+"Event Reminder",event-reminder,"Reminds you of upcoming calendar events.",Productivity and Task Management,Time and Calendar Displays
+"GitLab Status",gitlab-status,"Shows GitLab pipeline status.",Productivity and Task Management,None
+"Google Calendar",google-calendar,"Displays Google Calendar events.",Productivity and Task Management,Time and Calendar Displays
+"IP Address",ip-address,"Shows current IP address.",System Monitoring and Resource Usage,None
+"Moon Widget",moon-widget,"Displays moon phase and lunar events.",Niche and Creative Widgets,Time and Calendar Displays
+"Music Player",music-player,"A widget to control music playback.",Media and Entertainment,None
+"News Ticker",news-ticker,"A scrolling news ticker widget.",External Service Integration,None
+"Quote of the Day",quote-of-the-day,"Shows a new quote each day.",Informational and Educational Displays,None
+"RSS Feed",rss-feed,"Displays RSS feed updates.",External Service Integration,None
+"Simple Clock",simple-clock,"A minimal clock widget.",Time and Calendar Displays,None
+"System Info",system-info,"Displays system information like OS version.",System Monitoring and Resource Usage,None
+"Task Manager",task-manager,"A widget to manage tasks.",Productivity and Task Management,None
+"Time and Weather",time-and-weather,"Shows time and weather in one widget.",Time and Calendar Displays,External Service Integration
+"Twitter Feed",twitter-feed,"Displays recent tweets from a user.",External Service Integration,None
+"Weather Forecast",weather-forecast,"Shows a 5-day weather forecast.",External Service Integration,None
+"World Map Clock",world-map-clock,"A clock with a world map background.",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Zen Quote",zen-quote,"Displays a random Zen quote.",Informational and Educational Displays,None
+"Alarm Widget",alarm-widget,"A simple alarm clock widget.",Time and Calendar Displays,None
+"Audio Visualizer",audio-visualizer,"Visualizes audio output on desktop.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Battery Monitor",battery-monitor,"Monitors battery health and status.",System Monitoring and Resource Usage,None
+"Calendar Events",calendar-events,"Shows upcoming calendar events.",Productivity and Task Management,Time and Calendar Displays
+"Crypto Price",crypto-price,"Shows prices for multiple cryptocurrencies.",Financial and Cryptocurrency Tracking,None
+"Daily News",daily-news,"Displays daily news headlines.",External Service Integration,None
+"Disk Monitor",disk-monitor,"Monitors disk usage and alerts when low.",System Monitoring and Resource Usage,None
+"Event Timer",event-timer,"A timer for specific events.",Niche and Creative Widgets,Time and Calendar Displays
+"GitHub Stats",github-stats,"Shows GitHub repository stats.",Niche and Creative Widgets,Productivity and Task Management
+"iCal Widget",ical-widget,"Displays iCal events on desktop.",Productivity and Task Management,Time and Calendar Displays
+"Music Info",music-info,"Shows current music track info.",Media and Entertainment,None
+"Network Monitor",network-monitor,"Monitors network activity.",System Monitoring and Resource Usage,None
+"Photo Widget",photo-widget,"Displays a photo slideshow.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Launcher",quick-launcher,"A widget to launch apps quickly.",Productivity and Task Management,None
+"Stock Tracker",stock-tracker,"Tracks stock prices in real time.",Financial and Cryptocurrency Tracking,None
+"System Monitor",system-monitor,"Comprehensive system monitoring widget.",System Monitoring and Resource Usage,None
+"Task Reminder",task-reminder,"Reminds you of pending tasks.",Productivity and Task Management,None
+"Time Widget",time-widget,"A simple time display widget.",Time and Calendar Displays,None
+"Todo Widget",todo-widget,"A widget for managing to-do lists.",Productivity and Task Management,None
+"Traffic Info",traffic-info,"Shows real-time traffic updates.",External Service Integration,None
+"Weather Map",weather-map,"Displays weather on a map.",External Service Integration,Aesthetic and Visual Enhancements
+"World Clock Map",world-clock-map,"Shows world clocks on a map.",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Anime Clock",anime-clock,"A clock with anime-themed visuals.",Time and Calendar Displays,Niche and Creative Widgets
+"Battery Status",battery-status,"Shows detailed battery status.",System Monitoring and Resource Usage,None
+"Calendar Reminder",calendar-reminder,"Reminds you of calendar events.",Productivity and Task Management,Time and Calendar Displays
+"Crypto Monitor",crypto-monitor,"Monitors cryptocurrency market trends.",Financial and Cryptocurrency Tracking,None
+"Daily Weather",daily-weather,"Shows daily weather updates.",External Service Integration,None
+"Disk Usage Widget",disk-usage-widget,"Displays disk usage in a graphical format.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Event Planner",event-planner,"A widget to plan and track events.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Monitor",github-monitor,"Monitors GitHub activity and notifications.",Niche and Creative Widgets,Productivity and Task Management
+"Music Visualizer",music-visualizer,"Visualizes music playback on desktop.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Info",network-info,"Shows network connection details.",System Monitoring and Resource Usage,None
+"News Widget",news-widget,"Displays news from various sources.",External Service Integration,None
+"Photo Gallery",photo-gallery,"A widget for displaying photos.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Tasks",quick-tasks,"A widget for quick task management.",Productivity and Task Management,None
+"Stock Widget",stock-widget,"Shows stock market updates.",Financial and Cryptocurrency Tracking,None
+"System Overview",system-overview,"Shows an overview of system stats.",System Monitoring and Resource Usage,None
+"Task Tracker",task-tracker,"Tracks tasks and deadlines.",Productivity and Task Management,None
+"Time Display",time-display,"A simple time display widget.",Time and Calendar Displays,None
+"Todo List",todo-list,"A simple to-do list widget.",Productivity and Task Management,None
+"Traffic Monitor",traffic-monitor,"Monitors traffic conditions.",External Service Integration,None
+"Weather Update",weather-update,"Shows current weather conditions.",External Service Integration,None
+"World Time Widget",world-time-widget,"Displays time in multiple cities.",Time and Calendar Displays,None
+"Activity Tracker",activity-tracker,"Tracks system activity and performance.",System Monitoring and Resource Usage,None
+"Anime Art",anime-art,"Displays random anime artwork.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Battery Health",battery-health,"Shows battery health metrics.",System Monitoring and Resource Usage,None
+"Calendar Widget Plus",calendar-widget-plus,"An advanced calendar widget with event support.",Time and Calendar Displays,Productivity and Task Management
+"Crypto Dashboard",crypto-dashboard,"A dashboard for cryptocurrency prices.",Financial and Cryptocurrency Tracking,Aesthetic and Visual Enhancements
+"Daily Update",daily-update,"Shows daily news and weather.",External Service Integration,Informational and Educational Displays
+"Disk Space Monitor",disk-space-monitor,"Monitors disk space usage.",System Monitoring and Resource Usage,None
+"Event Scheduler",event-scheduler,"Schedules and tracks events.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Widget",github-widget,"Shows GitHub user activity.",Niche and Creative Widgets,Productivity and Task Management
+"Music Dashboard",music-dashboard,"A dashboard for music playback info.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Status",network-status,"Shows network status and speed.",System Monitoring and Resource Usage,None
+"News Reader",news-reader,"Reads news headlines from RSS feeds.",External Service Integration,None
+"Photo Display",photo-display,"Displays a photo slideshow.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Todo",quick-todo,"A quick to-do list widget.",Productivity and Task Management,None
+"Stock Dashboard",stock-dashboard,"A dashboard for stock market data.",Financial and Cryptocurrency Tracking,Aesthetic and Visual Enhancements
+"System Dashboard",system-dashboard,"A dashboard for system monitoring.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Task Dashboard",task-dashboard,"A dashboard for task management.",Productivity and Task Management,Aesthetic and Visual Enhancements
+"Time Dashboard",time-dashboard,"A dashboard for time and date.",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Todo Dashboard",todo-dashboard,"A dashboard for to-do lists.",Productivity and Task Management,Aesthetic and Visual Enhancements
+"Traffic Widget Plus",traffic-widget-plus,"An advanced traffic monitoring widget.",External Service Integration,None
+"Weather Dashboard",weather-dashboard,"A dashboard for weather updates.",External Service Integration,Aesthetic and Visual Enhancements
+"World Clock Dashboard",world-clock-dashboard,"A dashboard for world clocks.",Time and Calendar Displays,Aesthetic and Visual Enhancements
+"Anime Dashboard",anime-dashboard,"A dashboard with anime-themed visuals.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Dashboard",battery-dashboard,"A dashboard for battery stats.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Calendar Dashboard",calendar-dashboard,"A dashboard for calendar events.",Productivity and Task Management,Time and Calendar Displays
+"Crypto Widget",crypto-widget,"Shows cryptocurrency prices.",Financial and Cryptocurrency Tracking,None
+"Daily Dashboard",daily-dashboard,"A dashboard for daily updates.",External Service Integration,Informational and Educational Displays
+"Disk Dashboard",disk-dashboard,"A dashboard for disk usage.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"Event Dashboard",event-dashboard,"A dashboard for event tracking.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Dashboard",github-dashboard,"A dashboard for GitHub activity.",Niche and Creative Widgets,Productivity and Task Management
+"Music Widget",music-widget,"Shows music playback info.",Media and Entertainment,None
+"Network Dashboard",network-dashboard,"A dashboard for network monitoring.",System Monitoring and Resource Usage,Aesthetic and Visual Enhancements
+"News Dashboard",news-dashboard,"A dashboard for news updates.",External Service Integration,Aesthetic and Visual Enhancements
+"Photo Dashboard",photo-dashboard,"A dashboard for photo display.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Dashboard",quick-dashboard,"A dashboard for quick tasks.",Productivity and Task Management,Aesthetic and Visual Enhancements
+"Stock Monitor",stock-monitor,"Monitors stock market trends.",Financial and Cryptocurrency Tracking,None
+"System Widget",system-widget,"A widget for system stats.",System Monitoring and Resource Usage,None
+"Task Widget",task-widget,"A widget for task management.",Productivity and Task Management,None
+"Time Monitor",time-monitor,"Monitors time and date.",Time and Calendar Displays,None
+"Todo Monitor",todo-monitor,"Monitors to-do lists.",Productivity and Task Management,None
+"Traffic Dashboard",traffic-dashboard,"A dashboard for traffic updates.",External Service Integration,Aesthetic and Visual Enhancements
+"Weather Monitor",weather-monitor,"Monitors weather conditions.",External Service Integration,None
+"World Clock Widget Plus",world-clock-widget-plus,"An advanced world clock widget.",Time and Calendar Displays,None
+"Anime Widget",anime-widget,"A widget with anime-themed visuals.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Widget",battery-widget,"A widget for battery status.",System Monitoring and Resource Usage,None
+"Calendar Monitor",calendar-monitor,"Monitors calendar events.",Productivity and Task Management,Time and Calendar Displays
+"Crypto Tracker Plus",crypto-tracker-plus,"An advanced cryptocurrency tracker.",Financial and Cryptocurrency Tracking,None
+"Daily Monitor",daily-monitor,"Monitors daily news and weather.",External Service Integration,Informational and Educational Displays
+"Disk Widget",disk-widget,"A widget for disk usage.",System Monitoring and Resource Usage,None
+"Event Monitor",event-monitor,"Monitors upcoming events.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Monitor Plus",github-monitor-plus,"An advanced GitHub monitoring widget.",Niche and Creative Widgets,Productivity and Task Management
+"Music Monitor",music-monitor,"Monitors music playback.",Media and Entertainment,None
+"Network Widget",network-widget,"A widget for network status.",System Monitoring and Resource Usage,None
+"News Monitor",news-monitor,"Monitors news updates.",External Service Integration,None
+"Photo Monitor",photo-monitor,"Monitors photo slideshow.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Monitor",quick-monitor,"Monitors quick tasks.",Productivity and Task Management,None
+"Stock Widget Plus",stock-widget-plus,"An advanced stock market widget.",Financial and Cryptocurrency Tracking,None
+"System Monitor Plus",system-monitor-plus,"An advanced system monitoring widget.",System Monitoring and Resource Usage,None
+"Task Monitor Plus",task-monitor-plus,"An advanced task monitoring widget.",Productivity and Task Management,None
+"Time Widget Plus",time-widget-plus,"An advanced time display widget.",Time and Calendar Displays,None
+"Todo Widget Plus",todo-widget-plus,"An advanced to-do list widget.",Productivity and Task Management,None
+"Traffic Monitor Plus",traffic-monitor-plus,"An advanced traffic monitoring widget.",External Service Integration,None
+"Weather Widget Plus",weather-widget-plus,"An advanced weather widget.",External Service Integration,None
+"World Clock Monitor",world-clock-monitor,"Monitors world clocks.",Time and Calendar Displays,None
+"Anime Monitor",anime-monitor,"Monitors anime-themed visuals.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Monitor Plus",battery-monitor-plus,"An advanced battery monitoring widget.",System Monitoring and Resource Usage,None
+"Calendar Widget Advanced",calendar-widget-advanced,"An advanced calendar widget.",Time and Calendar Displays,Productivity and Task Management
+"Crypto Monitor Plus",crypto-monitor-plus,"An advanced cryptocurrency monitoring widget.",Financial and Cryptocurrency Tracking,None
+"Daily Widget",daily-widget,"A widget for daily updates.",External Service Integration,Informational and Educational Displays
+"Disk Monitor Plus",disk-monitor-plus,"An advanced disk monitoring widget.",System Monitoring and Resource Usage,None
+"Event Widget",event-widget,"A widget for event tracking.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Widget Plus",github-widget-plus,"An advanced GitHub widget.",Niche and Creative Widgets,Productivity and Task Management
+"Music Widget Plus",music-widget-plus,"An advanced music widget.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Monitor Plus",network-monitor-plus,"An advanced network monitoring widget.",System Monitoring and Resource Usage,None
+"News Widget Plus",news-widget-plus,"An advanced news widget.",External Service Integration,None
+"Photo Widget Plus",photo-widget-plus,"An advanced photo widget.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Widget",quick-widget,"A widget for quick tasks.",Productivity and Task Management,None
+"Stock Monitor Plus",stock-monitor-plus,"An advanced stock monitoring widget.",Financial and Cryptocurrency Tracking,None
+"System Widget Plus",system-widget-plus,"An advanced system widget.",System Monitoring and Resource Usage,None
+"Task Widget Plus",task-widget-plus,"An advanced task widget.",Productivity and Task Management,None
+"Time Monitor Plus",time-monitor-plus,"An advanced time monitoring widget.",Time and Calendar Displays,None
+"Todo Widget Advanced",todo-widget-advanced,"An advanced to-do widget.",Productivity and Task Management,None
+"Traffic Widget Advanced",traffic-widget-advanced,"An advanced traffic widget.",External Service Integration,None
+"Weather Widget Advanced",weather-widget-advanced,"An advanced weather widget.",External Service Integration,None
+"World Clock Widget Advanced",world-clock-widget-advanced,"An advanced world clock widget.",Time and Calendar Displays,None
+"Anime Widget Plus",anime-widget-plus,"An advanced anime widget.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Widget Plus",battery-widget-plus,"An advanced battery widget.",System Monitoring and Resource Usage,None
+"Calendar Widget Pro",calendar-widget-pro,"A professional calendar widget.",Time and Calendar Displays,Productivity and Task Management
+"Crypto Widget Plus",crypto-widget-plus,"An advanced cryptocurrency widget.",Financial and Cryptocurrency Tracking,None
+"Daily Widget Plus",daily-widget-plus,"An advanced daily update widget.",External Service Integration,Informational and Educational Displays
+"Disk Widget Plus",disk-widget-plus,"An advanced disk widget.",System Monitoring and Resource Usage,None
+"Event Widget Plus",event-widget-plus,"An advanced event widget.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Widget Advanced",github-widget-advanced,"An advanced GitHub widget.",Niche and Creative Widgets,Productivity and Task Management
+"Music Widget Advanced",music-widget-advanced,"An advanced music widget.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Widget Plus",network-widget-plus,"An advanced network widget.",System Monitoring and Resource Usage,None
+"News Widget Advanced",news-widget-advanced,"An advanced news widget.",External Service Integration,None
+"Photo Widget Advanced",photo-widget-advanced,"An advanced photo widget.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Widget Plus",quick-widget-plus,"An advanced quick task widget.",Productivity and Task Management,None
+"Stock Widget Advanced",stock-widget-advanced,"An advanced stock widget.",Financial and Cryptocurrency Tracking,None
+"System Widget Advanced",system-widget-advanced,"An advanced system widget.",System Monitoring and Resource Usage,None
+"Task Widget Advanced",task-widget-advanced,"An advanced task widget.",Productivity and Task Management,None
+"Time Widget Advanced",time-widget-advanced,"An advanced time widget.",Time and Calendar Displays,None
+"Todo Widget Pro",todo-widget-pro,"A professional to-do widget.",Productivity and Task Management,None
+"Traffic Widget Pro",traffic-widget-pro,"A professional traffic widget.",External Service Integration,None
+"Weather Widget Pro",weather-widget-pro,"A professional weather widget.",External Service Integration,None
+"World Clock Widget Pro",world-clock-widget-pro,"A professional world clock widget.",Time and Calendar Displays,None
+"Anime Widget Advanced",anime-widget-advanced,"An advanced anime widget.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Widget Advanced",battery-widget-advanced,"An advanced battery widget.",System Monitoring and Resource Usage,None
+"Calendar Widget Elite",calendar-widget-elite,"An elite calendar widget.",Time and Calendar Displays,Productivity and Task Management
+"Crypto Widget Advanced",crypto-widget-advanced,"An advanced cryptocurrency widget.",Financial and Cryptocurrency Tracking,None
+"Daily Widget Advanced",daily-widget-advanced,"An advanced daily widget.",External Service Integration,Informational and Educational Displays
+"Disk Widget Advanced",disk-widget-advanced,"An advanced disk widget.",System Monitoring and Resource Usage,None
+"Event Widget Advanced",event-widget-advanced,"An advanced event widget.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Widget Elite",github-widget-elite,"An elite GitHub widget.",Niche and Creative Widgets,Productivity and Task Management
+"Music Widget Elite",music-widget-elite,"An elite music widget.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Widget Advanced",network-widget-advanced,"An advanced network widget.",System Monitoring and Resource Usage,None
+"News Widget Pro",news-widget-pro,"A professional news widget.",External Service Integration,None
+"Photo Widget Pro",photo-widget-pro,"A professional photo widget.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Widget Advanced",quick-widget-advanced,"An advanced quick widget.",Productivity and Task Management,None
+"Stock Widget Pro",stock-widget-pro,"A professional stock widget.",Financial and Cryptocurrency Tracking,None
+"System Widget Pro",system-widget-pro,"A professional system widget.",System Monitoring and Resource Usage,None
+"Task Widget Pro",task-widget-pro,"A professional task widget.",Productivity and Task Management,None
+"Time Widget Pro",time-widget-pro,"A professional time widget.",Time and Calendar Displays,None
+"Todo Widget Elite",todo-widget-elite,"An elite to-do widget.",Productivity and Task Management,None
+"Traffic Widget Elite",traffic-widget-elite,"An elite traffic widget.",External Service Integration,None
+"Weather Widget Elite",weather-widget-elite,"An elite weather widget.",External Service Integration,None
+"World Clock Widget Elite",world-clock-widget-elite,"An elite world clock widget.",Time and Calendar Displays,None
+"Anime Widget Elite",anime-widget-elite,"An elite anime widget.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Widget Pro",battery-widget-pro,"A professional battery widget.",System Monitoring and Resource Usage,None
+"Calendar Widget Master",calendar-widget-master,"A master calendar widget.",Time and Calendar Displays,Productivity and Task Management
+"Crypto Widget Pro",crypto-widget-pro,"A professional cryptocurrency widget.",Financial and Cryptocurrency Tracking,None
+"Daily Widget Pro",daily-widget-pro,"A professional daily widget.",External Service Integration,Informational and Educational Displays
+"Disk Widget Pro",disk-widget-pro,"A professional disk widget.",System Monitoring and Resource Usage,None
+"Event Widget Pro",event-widget-pro,"A professional event widget.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Widget Pro",github-widget-pro,"A professional GitHub widget.",Niche and Creative Widgets,Productivity and Task Management
+"Music Widget Pro",music-widget-pro,"A professional music widget.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Widget Pro",network-widget-pro,"A professional network widget.",System Monitoring and Resource Usage,None
+"News Widget Elite",news-widget-elite,"An elite news widget.",External Service Integration,None
+"Photo Widget Elite",photo-widget-elite,"An elite photo widget.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Widget Pro",quick-widget-pro,"A professional quick widget.",Productivity and Task Management,None
+"Stock Widget Elite",stock-widget-elite,"An elite stock widget.",Financial and Cryptocurrency Tracking,None
+"System Widget Elite",system-widget-elite,"An elite system widget.",System Monitoring and Resource Usage,None
+"Task Widget Elite",task-widget-elite,"An elite task widget.",Productivity and Task Management,None
+"Time Widget Elite",time-widget-elite,"An elite time widget.",Time and Calendar Displays,None
+"Todo Widget Master",todo-widget-master,"A master to-do widget.",Productivity and Task Management,None
+"Traffic Widget Master",traffic-widget-master,"A master traffic widget.",External Service Integration,None
+"Weather Widget Master",weather-widget-master,"A master weather widget.",External Service Integration,None
+"World Clock Widget Master",world-clock-widget-master,"A master world clock widget.",Time and Calendar Displays,None
+"Anime Widget Pro",anime-widget-pro,"A professional anime widget.",Niche and Creative Widgets,Aesthetic and Visual Enhancements
+"Battery Widget Elite",battery-widget-elite,"An elite battery widget.",System Monitoring and Resource Usage,None
+"Calendar Widget Supreme",calendar-widget-supreme,"A supreme calendar widget.",Time and Calendar Displays,Productivity and Task Management
+"Crypto Widget Elite",crypto-widget-elite,"An elite cryptocurrency widget.",Financial and Cryptocurrency Tracking,None
+"Daily Widget Elite",daily-widget-elite,"An elite daily widget.",External Service Integration,Informational and Educational Displays
+"Disk Widget Elite",disk-widget-elite,"An elite disk widget.",System Monitoring and Resource Usage,None
+"Event Widget Elite",event-widget-elite,"An elite event widget.",Productivity and Task Management,Time and Calendar Displays
+"GitHub Widget Master",github-widget-master,"A master GitHub widget.",Niche and Creative Widgets,Productivity and Task Management
+"Music Widget Master",music-widget-master,"A master music widget.",Media and Entertainment,Aesthetic and Visual Enhancements
+"Network Widget Elite",network-widget-elite,"An elite network widget.",System Monitoring and Resource Usage,None
+"News Widget Master",news-widget-master,"A master news widget.",External Service Integration,None
+"Photo Widget Master",photo-widget-master,"A master photo widget.",Aesthetic and Visual Enhancements,Niche and Creative Widgets
+"Quick Widget Elite",quick-widget-elite,"An elite quick widget.",Productivity and Task Management,None
+"Stock Widget Master",stock-widget-master,"A master stock widget.",Financial and Cryptocurrency Tracking,None
+"System Widget Master",system-widget-master,"A master system widget.",System Monitoring and Resource Usage,None
+"Task Widget Master",task-widget-master,"A master task widget.",Productivity and Task Management,None
+"Time Widget Master",time-widget-master,"A master time widget.",Time and Calendar Displays,None
+"Todo Widget Supreme",todo-widget-supreme,"A supreme to-do widget.",Productivity and Task Management,None
+"Traffic Widget Supreme",traffic-widget-supreme,"A supreme traffic widget.",External Service Integration,None
+"Weather Widget Supreme",weather-widget-supreme,"A supreme weather widget.",External Service Integration,None
+"World Clock Widget Supreme",world-clock-widget-supreme,"A supreme world clock widget.",Time and Calendar Displays,None
