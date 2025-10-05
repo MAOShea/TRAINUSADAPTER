@@ -92,10 +92,17 @@ def main():
                 # Create folder name (remove .zip extension)
                 folder_name = filename[:-4] if filename.endswith('.zip') else filename
                 extract_path = os.path.join(downloads_dir, folder_name)
-                
+
                 with zipfile.ZipFile(file_path, 'r') as zip_ref:
                     zip_ref.extractall(extract_path)
-                
+
+                # Remove __MACOSX folders immediately after extraction
+                import shutil
+                macosx_path = os.path.join(extract_path, '__MACOSX')
+                if os.path.exists(macosx_path):
+                    shutil.rmtree(macosx_path)
+                    print(f"Removed __MACOSX folder from: {folder_name}")
+
                 print(f"Extracted: {folder_name}")
                 download_success = True
                 

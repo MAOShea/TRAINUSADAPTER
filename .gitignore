@@ -37,6 +37,8 @@ Thumbs.db
 
 # Project specific
 downloads/
+datasets/
+prompts/
 download_status.json
 widget_processing_results.csv
 missing_widgets.txt

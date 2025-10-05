@@ -1,1 +1,0 @@
-/usr/bin/python3 /Users/mike/Documents/TrainUSAdapter/downloadfullarchive.py 2>&1 | tee download_log.txt
