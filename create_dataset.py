@@ -4,14 +4,64 @@ import random
 import csv
 import glob
 import argparse
+import re
+from training_config import systemPrompt, TOOL_DEFINITION
 
-def create_dataset_from_csv(csv_file_path, set_name):
+# Rough token estimation: ~4 chars per token for code/text (matches evaluate_training_data_size.py)
+CHARS_PER_TOKEN = 4
+
+def estimate_tokens(text_length, chars_per_token=CHARS_PER_TOKEN):
+    """Estimate token count from character length"""
+    return int(text_length / chars_per_token)
+
+def truncate_code_to_tokens(code, max_tokens):
+    """
+    Truncate widget code to fit within max_tokens limit.
+    Truncates from the end, preserving the beginning.
+    """
+    if max_tokens <= 0:
+        return ""
+    
+    max_chars = max_tokens * CHARS_PER_TOKEN
+    if len(code) <= max_chars:
+        return code
+    
+    # Truncate, but try to break at a newline if possible
+    truncated = code[:max_chars]
+    last_newline = truncated.rfind('\n')
+    
+    # If we find a newline in the last 10% of truncation, use it for cleaner break
+    if last_newline > max_chars * 0.9:
+        return code[:last_newline]
+    
+    return truncated
+
+def load_strategy(strategy_file='training_data_strategy.json'):
+    """
+    Load strategy recommendations from JSON file.
+    Returns dict mapping widget_id to strategy entry, or empty dict if file doesn't exist.
+    """
+    if not os.path.exists(strategy_file):
+        return {}
+    
+    try:
+        with open(strategy_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('strategy', {})
+    except Exception as e:
+        print(f"Warning: Could not load strategy file {strategy_file}: {e}")
+        return {}
+        
+# Extraction functions removed - now using complete widget code as jsxContent
+
+def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_data_strategy.json'):
     """
     Create JSONL dataset files from CSV and widget code files.
     
     Args:
         csv_file_path: Path to the widget_processing_results.csv file
         set_name: Name of the dataset folder to create under datasets/
+        strategy_file: Path to strategy JSON file (default: training_data_strategy.json)
     """
     
     # Create dataset directory in current project
@@ -51,8 +101,16 @@ def create_dataset_from_csv(csv_file_path, set_name):
         print("Error: 'PS_widgetfoldername' column not found in CSV")
         return
     
+    # Load strategy file if it exists
+    strategy = load_strategy(strategy_file)
+    if strategy:
+        print(f"Loaded strategy file: {len(strategy)} widgets have strategy recommendations")
+    else:
+        print("No strategy file found - processing all widgets without exclusions/truncations")
+    
     # Process each widget
     data = []
+    excluded_count = 0
     for row in jsx_widgets:
         widget_id = row['OS_widget_id']
         widget_folder = row['PS_widgetfoldername']
@@ -107,6 +165,17 @@ def create_dataset_from_csv(csv_file_path, set_name):
         # Join all JSX files with line breaks
         code = '\n\n'.join(code_parts)
         
+        # Apply strategy if available
+        if widget_id in strategy:
+            widget_strategy = strategy[widget_id]
+            action = widget_strategy.get('action', 'keep')
+            
+            if action == 'exclude':
+                excluded_count += 1
+                reason = widget_strategy.get('reason', 'Strategy recommends exclusion')
+                print(f"Skipping {widget_id}: {reason}")
+                continue
+        
         data.append({
             'prompt': prompt,
             'code': code,
@@ -114,6 +183,8 @@ def create_dataset_from_csv(csv_file_path, set_name):
         })
     
     print(f"Processed {len(data)} widgets with valid prompts and code")
+    if excluded_count > 0:
+        print(f"  Excluded: {excluded_count} widgets (exceeded token limit per strategy recommendations)")
     
     if len(data) == 0:
         print("No valid data to process")
@@ -129,13 +200,20 @@ def create_dataset_from_csv(csv_file_path, set_name):
     test_data = data[train_size + valid_size:]
     
     def write_jsonl(dataset, output_file):
-        """Write dataset to JSONL file in chat format"""
+        """Write dataset to JSONL file in chat format with tools"""
         with open(output_file, 'w', encoding='utf-8') as f:
             for entry in dataset:
                 json_entry = [
-                    {'role': 'system', 'content': 'You are a helpful assistant generating React/JSX widgets for Übersicht.'},
+                    {
+                        'role': 'system', 
+                        'content': systemPrompt,
+                        'tools': [TOOL_DEFINITION]
+                    },
                     {'role': 'user', 'content': entry['prompt']},
-                    {'role': 'assistant', 'content': entry['code']}
+                    {
+                        'role': 'assistant',
+                        'content': entry['code']
+                    }
                 ]
                 f.write(json.dumps(json_entry, ensure_ascii=False) + '\n')
     
@@ -151,10 +229,12 @@ def main():
     parser = argparse.ArgumentParser(description='Create JSONL dataset from widget CSV and code files')
     parser.add_argument('--csv', required=True, help='Path to widget_processing_results.csv')
     parser.add_argument('--set', required=True, help='Dataset name (creates folder under /datasets)')
+    parser.add_argument('--strategy', default='training_data_strategy.json', 
+                       help='Path to strategy JSON file for exclusions/truncations (default: training_data_strategy.json)')
     
     args = parser.parse_args()
     
-    create_dataset_from_csv(args.csv, args.set)
+    create_dataset_from_csv(args.csv, args.set, args.strategy)
 
 if __name__ == '__main__':
     main()

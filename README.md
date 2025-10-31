@@ -11,6 +11,9 @@ This project provides tools to:
 - Generate comprehensive CSV reports with categorization
 - Create AI prompts for JSX widgets
 - Perform AI-assisted curation and categorization
+- Generate JSONL training datasets for Apple adapter model fine-tuning
+
+**Training Format Decision:** This project uses a **one-shot (single-turn) conversation format** for adapter training. Each training example consists of a user request followed by a complete widget response (`[system, user, assistant]`). While multi-turn incremental improvements (e.g., "create widget" → "align it right" → "make font bold") are recognized as a potential use case, they are not currently implemented. See section 6.1.1 for detailed discussion.
 
 ## Important Notes
 
@@ -139,14 +142,142 @@ Generate JSONL files for Apple adapter model training from CSV and widget code f
 - Handles missing files gracefully with warnings
 
 **Data Format:**
-Each JSONL line contains a chat conversation:
+Each JSONL line contains a chat conversation following **Apple's adapter training schema** (compatible with OpenAI Chat Completion format):
 ```json
 [
-  {"role": "system", "content": "You are a helpful assistant generating React/JSX widgets for Übersicht."},
-  {"role": "user", "content": "Create an Übersicht widget that..."},
-  {"role": "assistant", "content": "// index.jsx\nimport React from 'react';\n..."}
+  {
+    "role": "system",
+    "content": "SYSTEM_PROMPT (includes tool instructions)",
+    "tools": [{"type": "function", "function": {...}}]
+  },
+  {
+    "role": "user",
+    "content": "Create an Übersicht widget that..."
+  },
+  {
+    "role": "assistant",
+    "content": "// index.jsx\nexport const command = ...\nexport const render = ...\n..."
+  }
 ]
 ```
+
+**Format Reference:**
+- **Official Standard**: Apple's adapter training schema (see `schema.md` in adapter training toolkit)
+- **Compatibility**: Compatible with OpenAI Chat Completions API format
+- **Structure**: System message with tools definition, user prompt, assistant response with complete widget code
+
+#### 6.1.1 Conversation Format: One-Shot Approach
+
+**Current Decision:** We have elected to use a **one-shot (single-turn) conversation format** for training.
+
+**What This Means:**
+- Each training example is a single request → complete widget response
+- Structure: `[system, user, assistant]` (3 messages per example)
+- The user asks once, and the assistant responds with the complete widget JSX code
+- This matches real-world usage where users typically request a complete widget in one interaction
+
+**Training Example:**
+```json
+[
+  {"role": "system", "content": "...", "tools": [...]},
+  {"role": "user", "content": "Create a widget with a button labeled 'Hello World'"},
+  {"role": "assistant", "content": "export const command = ...\nexport const render = ...\n// complete widget code"}
+]
+```
+
+**Future Consideration: Multi-Turn Incremental Improvements**
+While not currently implemented, we recognize a potential use case for **multi-turn conversations** where users incrementally improve widgets:
+- Turn 1: "Create a widget with a button"
+- Turn 2: "Align it to the right edge"
+- Turn 3: "Make the font bold"
+
+**Why We're Not Doing Multi-Turn Yet:**
+1. **Training Data Complexity**: Generating realistic incremental improvement sequences requires either manual curation or sophisticated synthetic generation
+2. **Current Focus**: One-shot generation matches the primary use case and is simpler to implement
+3. **Data Quality**: We want high-quality training examples; multi-turn requires ensuring each incremental step is realistic and coherent
+
+**Multi-Turn Implementation (Future Work):**
+If multi-turn incremental improvements are desired, the implementation would require:
+- New data structure: `multiturn_conversations/{widget_id}.json` with conversation sequences
+- Modified `create_dataset.py` to support both single-turn and multi-turn examples
+- Strategy for generating/curating incremental improvement sequences
+- Mixed datasets: supporting both formats in the same training set
+
+For now, the adapter is trained on single-turn conversations where the assistant generates complete widgets in one response.
+
+#### 6.1 Design: Tool Call Integration
+
+The `create_dataset.py` script implements a sophisticated approach to training adapter models for **tool calling** rather than just code generation. This design enables the adapter to learn when and how to call the `WriteUbersichtWidgetToFileSystem` tool.
+
+**Core Design Philosophy:**
+- **Tool-First Approach**: Instead of generating JSX code directly, the adapter learns to call tools with extracted parameters
+- **Parameter Extraction**: Four extraction functions parse existing JSX code to extract tool parameters
+- **Realistic Training Data**: Uses actual widget code to create realistic tool calls with proper parameter values
+
+**Extraction Functions:**
+
+1. **`extract_bash_command(code)`**
+   - **Purpose**: Extracts the bash command that Übersicht will execute
+   - **Pattern**: `export const command = \`([^`]+)\``
+   - **Returns**: The bash command string (e.g., `"ps aux | grep python"`)
+   - **Why**: The bash command determines what data the widget displays
+
+2. **`extract_refresh_frequency(code)`**
+   - **Purpose**: Extracts how often the widget refreshes its data
+   - **Pattern**: `export const refreshFrequency = (\d+)`
+   - **Returns**: Refresh rate in milliseconds (defaults to 1000 if not found)
+   - **Why**: Controls widget update frequency and system resource usage
+
+3. **`extract_render_function(code)`**
+   - **Purpose**: Extracts the React component that renders the widget
+   - **Pattern**: `export const render = ({[^}]+}) =>`
+   - **Returns**: Complete React functional component as string
+   - **Why**: This is the core rendering logic that displays the bash command output
+
+4. **`extract_css_positioning(code)`**
+   - **Purpose**: Extracts CSS positioning for absolute placement
+   - **Pattern**: `export const className = \`([^`]+)\``
+   - **Returns**: CSS positioning string (e.g., `"top: 20px; left: 20px;"`)
+   - **Why**: Determines where the widget appears on the desktop
+
+**Training Data Structure:**
+Each training example follows this pattern:
+```json
+[
+  {
+    "role": "system",
+    "content": "You are an Übersicht widget designer... [tool instructions]",
+    "tools": [{"type": "function", "function": {...}}]
+  },
+  {
+    "role": "user", 
+    "content": "Create an Übersicht widget that..."
+  },
+  {
+    "role": "assistant",
+    "content": "I'll create that widget for you.",
+    "tool_calls": [{
+      "id": "call_widget_id",
+      "type": "function",
+      "function": {
+        "name": "WriteUbersichtWidgetToFileSystem",
+        "arguments": {
+          "bashCommand": "ps aux | grep python",
+          "refreshFrequency": 1000,
+          "renderFunction": "({output}) => { return <div className='widget'>{output}</div> }",
+          "cssPositioning": "top: 20px; left: 20px;"
+        }
+      }
+    }]
+  }
+]
+```
+
+**Key Benefits:**
+- **Realistic Tool Calls**: Uses actual widget parameters instead of synthetic data
+- **Parameter Accuracy**: Extraction functions ensure tool calls have correct parameter types and values
+- **Tool Learning**: Adapter learns the relationship between user requests and tool parameter extraction
+- **Code Quality**: Maintains high-quality JSX generation while adding tool calling capability
 
 ## Detailed JSX Processing Instructions
 

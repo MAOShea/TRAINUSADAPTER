@@ -1,0 +1,406 @@
+{
+  "max_sequence_length": 4095,
+  "strategy": {
+    "Persona_5_Calendar": {
+      "action": "exclude",
+      "reason": "Exceeds limit (11508 > 4095 tokens)",
+      "current_total_tokens": 11508,
+      "current_widget_tokens": 10212,
+      "over_by": 7413
+    },
+    "task-deadline-with-rtm": {
+      "action": "exclude",
+      "reason": "Exceeds limit (9350 > 4095 tokens)",
+      "current_total_tokens": 9350,
+      "current_widget_tokens": 7443,
+      "over_by": 5255
+    },
+    "Ubersicht-Monit": {
+      "action": "exclude",
+      "reason": "Exceeds limit (8910 > 4095 tokens)",
+      "current_total_tokens": 8910,
+      "current_widget_tokens": 7866,
+      "over_by": 4815
+    },
+    "Ubersicht-Gotify": {
+      "action": "exclude",
+      "reason": "Exceeds limit (8213 > 4095 tokens)",
+      "current_total_tokens": 8213,
+      "current_widget_tokens": 7156,
+      "over_by": 4118
+    },
+    "mybar": {
+      "action": "exclude",
+      "reason": "Exceeds limit (7622 > 4095 tokens)",
+      "current_total_tokens": 7622,
+      "current_widget_tokens": 6553,
+      "over_by": 3527
+    },
+    "UeberPlayer": {
+      "action": "exclude",
+      "reason": "Exceeds limit (6081 > 4095 tokens)",
+      "current_total_tokens": 6081,
+      "current_widget_tokens": 5059,
+      "over_by": 1986
+    },
+    "icalPal.widget": {
+      "action": "exclude",
+      "reason": "Exceeds limit (5286 > 4095 tokens)",
+      "current_total_tokens": 5286,
+      "current_widget_tokens": 4233,
+      "over_by": 1191
+    },
+    "FroxceySidebar": {
+      "action": "exclude",
+      "reason": "Exceeds limit (4466 > 4095 tokens)",
+      "current_total_tokens": 4466,
+      "current_widget_tokens": 3503,
+      "over_by": 371
+    },
+    "istats.widget": {
+      "action": "exclude",
+      "reason": "Exceeds limit (4425 > 4095 tokens)",
+      "current_total_tokens": 4425,
+      "current_widget_tokens": 3517,
+      "over_by": 330
+    },
+    "Ubersicht-World-Clock-Widget": {
+      "action": "exclude",
+      "reason": "Exceeds limit (4373 > 4095 tokens)",
+      "current_total_tokens": 4373,
+      "current_widget_tokens": 3436,
+      "over_by": 278
+    },
+    "world-clock-widget": {
+      "action": "exclude",
+      "reason": "Exceeds limit (4260 > 4095 tokens)",
+      "current_total_tokens": 4260,
+      "current_widget_tokens": 3102,
+      "over_by": 165
+    },
+    "ubersicht-yet-another-simple-calendar-widget": {
+      "action": "keep",
+      "current_total_tokens": 4039,
+      "current_widget_tokens": 3112
+    },
+    "leetcode": {
+      "action": "keep",
+      "current_total_tokens": 3493,
+      "current_widget_tokens": 2605
+    },
+    "leetcode-glance": {
+      "action": "keep",
+      "current_total_tokens": 3431,
+      "current_widget_tokens": 2545
+    },
+    "uebersicht-purpleair": {
+      "action": "keep",
+      "current_total_tokens": 3418,
+      "current_widget_tokens": 2527
+    },
+    "TautulliWidget": {
+      "action": "keep",
+      "current_total_tokens": 3131,
+      "current_widget_tokens": 1993
+    },
+    "job-monitor-widget": {
+      "action": "keep",
+      "current_total_tokens": 3060,
+      "current_widget_tokens": 2015
+    },
+    "ubersicht-oura": {
+      "action": "keep",
+      "current_total_tokens": 3029,
+      "current_widget_tokens": 2160
+    },
+    "Airflo-ubersicht": {
+      "action": "keep",
+      "current_total_tokens": 3023,
+      "current_widget_tokens": 2148
+    },
+    "TodoListWidget": {
+      "action": "keep",
+      "current_total_tokens": 2862,
+      "current_widget_tokens": 1994
+    },
+    "os-version-uptime.widget": {
+      "action": "keep",
+      "current_total_tokens": 2761,
+      "current_widget_tokens": 1903
+    },
+    "WeatherTV.widget": {
+      "action": "keep",
+      "current_total_tokens": 2654,
+      "current_widget_tokens": 1792
+    },
+    "bar": {
+      "action": "keep",
+      "current_total_tokens": 2570,
+      "current_widget_tokens": 1680
+    },
+    "RedditMembers.widget": {
+      "action": "keep",
+      "current_total_tokens": 2484,
+      "current_widget_tokens": 1610
+    },
+    "helldivers.widget": {
+      "action": "keep",
+      "current_total_tokens": 2463,
+      "current_widget_tokens": 1614
+    },
+    "StatBar": {
+      "action": "keep",
+      "current_total_tokens": 2434,
+      "current_widget_tokens": 1558
+    },
+    "ubersicht-zelda-battery": {
+      "action": "keep",
+      "current_total_tokens": 2392,
+      "current_widget_tokens": 1539
+    },
+    "Ubersicht-Position": {
+      "action": "keep",
+      "current_total_tokens": 2383,
+      "current_widget_tokens": 1538
+    },
+    "ubersicht-gitissues": {
+      "action": "keep",
+      "current_total_tokens": 2376,
+      "current_widget_tokens": 1538
+    },
+    "APOD": {
+      "action": "keep",
+      "current_total_tokens": 2347,
+      "current_widget_tokens": 1417
+    },
+    "ubersicht-time-remaining": {
+      "action": "keep",
+      "current_total_tokens": 2346,
+      "current_widget_tokens": 1435
+    },
+    "ubersicht-nasa-image": {
+      "action": "keep",
+      "current_total_tokens": 2339,
+      "current_widget_tokens": 1417
+    },
+    "ubersicht-clock": {
+      "action": "keep",
+      "current_total_tokens": 2286,
+      "current_widget_tokens": 1439
+    },
+    "uebersicht-fetch": {
+      "action": "keep",
+      "current_total_tokens": 2282,
+      "current_widget_tokens": 1369
+    },
+    "ubersicht-docker-widget": {
+      "action": "keep",
+      "current_total_tokens": 2277,
+      "current_widget_tokens": 1118
+    },
+    "ubersicht-quote-of-the-day": {
+      "action": "keep",
+      "current_total_tokens": 2276,
+      "current_widget_tokens": 1322
+    },
+    "Docker-Box-Widget": {
+      "action": "keep",
+      "current_total_tokens": 2257,
+      "current_widget_tokens": 1368
+    },
+    "french-revolutionary-calendar": {
+      "action": "keep",
+      "current_total_tokens": 2172,
+      "current_widget_tokens": 1316
+    },
+    "uebersicht-newsticker-widget": {
+      "action": "keep",
+      "current_total_tokens": 1988,
+      "current_widget_tokens": 1157
+    },
+    "fuzzytime-with-date.widget": {
+      "action": "keep",
+      "current_total_tokens": 1973,
+      "current_widget_tokens": 1116
+    },
+    "taylor-swift-ubersicht": {
+      "action": "keep",
+      "current_total_tokens": 1964,
+      "current_widget_tokens": 1127
+    },
+    "ubersicht-calendar": {
+      "action": "keep",
+      "current_total_tokens": 1931,
+      "current_widget_tokens": 1032
+    },
+    "Github-Graph-Ubersicht": {
+      "action": "keep",
+      "current_total_tokens": 1890,
+      "current_widget_tokens": 1059
+    },
+    "WalkingFamilyPixelArt": {
+      "action": "keep",
+      "current_total_tokens": 1842,
+      "current_widget_tokens": 1016
+    },
+    "microcalendar": {
+      "action": "keep",
+      "current_total_tokens": 1821,
+      "current_widget_tokens": 982
+    },
+    "photo-slideshow-ubersicht-widget": {
+      "action": "keep",
+      "current_total_tokens": 1820,
+      "current_widget_tokens": 997
+    },
+    "uebersicht-jira-filter": {
+      "action": "keep",
+      "current_total_tokens": 1801,
+      "current_widget_tokens": 965
+    },
+    "vintage-apple.widget": {
+      "action": "keep",
+      "current_total_tokens": 1759,
+      "current_widget_tokens": 875
+    },
+    "Music-Craft": {
+      "action": "keep",
+      "current_total_tokens": 1759,
+      "current_widget_tokens": 926
+    },
+    "ubersicht-gitlabissues": {
+      "action": "keep",
+      "current_total_tokens": 1754,
+      "current_widget_tokens": 940
+    },
+    "particles.widget": {
+      "action": "keep",
+      "current_total_tokens": 1713,
+      "current_widget_tokens": 879
+    },
+    "drunk-o-clock-widget": {
+      "action": "keep",
+      "current_total_tokens": 1668,
+      "current_widget_tokens": 836
+    },
+    "MiniBar-Widget": {
+      "action": "keep",
+      "current_total_tokens": 1613,
+      "current_widget_tokens": 776
+    },
+    "Really-Simple-Spotify-Widget": {
+      "action": "keep",
+      "current_total_tokens": 1598,
+      "current_widget_tokens": 762
+    },
+    "uebersicht-aerial": {
+      "action": "keep",
+      "current_total_tokens": 1444,
+      "current_widget_tokens": 628
+    },
+    "uebersicht-calendar-jsx": {
+      "action": "keep",
+      "current_total_tokens": 1434,
+      "current_widget_tokens": 628
+    },
+    "uebersicht-hacker-news": {
+      "action": "keep",
+      "current_total_tokens": 1410,
+      "current_widget_tokens": 610
+    },
+    "trash-empty-ubersicht-widget": {
+      "action": "keep",
+      "current_total_tokens": 1354,
+      "current_widget_tokens": 548
+    },
+    "uebersicht-currenttrack-widget": {
+      "action": "keep",
+      "current_total_tokens": 1345,
+      "current_widget_tokens": 488
+    },
+    "CryptoMarketCap": {
+      "action": "keep",
+      "current_total_tokens": 1300,
+      "current_widget_tokens": 449
+    },
+    "ubersicht-neofetch": {
+      "action": "keep",
+      "current_total_tokens": 1284,
+      "current_widget_tokens": 462
+    },
+    "battery-bar": {
+      "action": "keep",
+      "current_total_tokens": 1240,
+      "current_widget_tokens": 416
+    },
+    "march-covid": {
+      "action": "keep",
+      "current_total_tokens": 1239,
+      "current_widget_tokens": 417
+    },
+    "FastFetch": {
+      "action": "keep",
+      "current_total_tokens": 1233,
+      "current_widget_tokens": 401
+    },
+    "uebersicht-ip": {
+      "action": "keep",
+      "current_total_tokens": 1210,
+      "current_widget_tokens": 362
+    },
+    "ubersicht-shortcut-widget": {
+      "action": "keep",
+      "current_total_tokens": 1194,
+      "current_widget_tokens": 393
+    },
+    "ubersicht-quotes-widget": {
+      "action": "keep",
+      "current_total_tokens": 1182,
+      "current_widget_tokens": 385
+    },
+    "wallpaper-widget": {
+      "action": "keep",
+      "current_total_tokens": 1171,
+      "current_widget_tokens": 369
+    },
+    "uebersicht-BinanceCryptoPrices": {
+      "action": "keep",
+      "current_total_tokens": 1118,
+      "current_widget_tokens": 320
+    },
+    "wttr": {
+      "action": "keep",
+      "current_total_tokens": 1111,
+      "current_widget_tokens": 292
+    },
+    "wttr-uebersicht": {
+      "action": "keep",
+      "current_total_tokens": 1100,
+      "current_widget_tokens": 292
+    },
+    "wttr-moon-uebersicht": {
+      "action": "keep",
+      "current_total_tokens": 1054,
+      "current_widget_tokens": 250
+    },
+    "PostNord4Ubersicht": {
+      "action": "keep",
+      "current_total_tokens": 1045,
+      "current_widget_tokens": 249
+    },
+    "profile.widget": {
+      "action": "keep",
+      "current_total_tokens": 1039,
+      "current_widget_tokens": 237
+    },
+    "Ubersicht-Online-Checker": {
+      "action": "keep",
+      "current_total_tokens": 1036,
+      "current_widget_tokens": 244
+    }
+  },
+  "summary": {
+    "keep": 64,
+    "exclude": 11
+  }
+}
