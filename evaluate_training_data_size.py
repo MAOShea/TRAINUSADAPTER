@@ -10,6 +10,7 @@ import os
 import csv
 import glob
 import sys
+import uuid
 from pathlib import Path
 
 # Rough token estimation: ~4 chars per token for code/text
@@ -61,6 +62,15 @@ def get_user_prompt(widget_id, prompts_dir='prompts'):
 
 def build_training_example_json(system_prompt, tool_definition, user_prompt, widget_code):
     """Build the complete JSON structure that matches create_dataset.py output"""
+    # Generate a tool call ID (matching create_dataset.py format)
+    tool_call_id = f"call_{uuid.uuid4().hex[:16]}"
+    
+    # Create the arguments JSON object, then stringify it for the tool call
+    arguments_obj = {
+        'jsxContent': widget_code
+    }
+    arguments_json = json.dumps(arguments_obj, ensure_ascii=False)
+    
     json_entry = [
         {
             'role': 'system',
@@ -73,7 +83,17 @@ def build_training_example_json(system_prompt, tool_definition, user_prompt, wid
         },
         {
             'role': 'assistant',
-            'content': widget_code
+            'content': '',
+            'tool_calls': [
+                {
+                    'id': tool_call_id,
+                    'type': 'function',
+                    'function': {
+                        'name': 'WriteUbersichtWidgetToFileSystem',
+                        'arguments': arguments_json
+                    }
+                }
+            ]
         }
     ]
     return json.dumps(json_entry, ensure_ascii=False)
@@ -103,9 +123,13 @@ def analyze_complete_training_data(csv_file_path, downloads_dir='downloads', pro
     tool_def_chars = len(tool_def_json)
     
     # Build complete JSON to measure structure overhead
+    # Note: We use placeholders, but widget code will be JSON-escaped in tool call arguments
     empty_json = build_training_example_json(
         SYSTEM_PROMPT, TOOL_DEFINITION, "USER_PROMPT_PLACEHOLDER", "WIDGET_CODE_PLACEHOLDER"
     )
+    # Structure overhead includes: JSON keys, tool call structure, assistant message with content
+    # Note: Widget code placeholder doesn't account for JSON escaping overhead, which will be
+    # calculated separately when we process actual widget code
     structure_overhead = len(empty_json) - len("USER_PROMPT_PLACEHOLDER") - len("WIDGET_CODE_PLACEHOLDER")
     
     print(f"System prompt: {system_prompt_chars:,} chars (~{estimate_tokens(system_prompt_chars):,} tokens)")
@@ -139,6 +163,16 @@ def analyze_complete_training_data(csv_file_path, downloads_dir='downloads', pro
         user_prompt_chars = len(user_prompt)
         widget_code_chars = len(widget_code)
         
+        # Calculate JSON escaping overhead for widget code in tool call arguments
+        # Widget code is JSON-stringified in the arguments field
+        arguments_obj = {'jsxContent': widget_code}
+        arguments_json = json.dumps(arguments_obj, ensure_ascii=False)
+        arguments_json_length = len(arguments_json)
+        # Escaping overhead = arguments JSON length - raw widget code length - wrapper overhead
+        # Wrapper is '{"jsxContent":""}' = 17 chars when empty
+        wrapper_overhead = 17
+        json_escaping_overhead = arguments_json_length - widget_code_chars - wrapper_overhead
+        
         results.append({
             'widget_id': widget_id,
             'widget_folder': widget_folder,
@@ -148,6 +182,8 @@ def analyze_complete_training_data(csv_file_path, downloads_dir='downloads', pro
             'user_prompt_tokens': estimate_tokens(user_prompt_chars),
             'widget_code_chars': widget_code_chars,
             'widget_code_tokens': estimate_tokens(widget_code_chars),
+            'json_escaping_overhead_chars': json_escaping_overhead,
+            'json_escaping_overhead_tokens': estimate_tokens(json_escaping_overhead),
             'structure_overhead_tokens': estimate_tokens(structure_overhead),
             'total_chars': total_chars,
             'estimated_total_tokens': estimated_tokens,
@@ -234,17 +270,27 @@ def print_analysis(results, max_sequence_length=DEFAULT_MAX_SEQUENCE_LENGTH):
     print("    },")
     print("    {")
     print("      'role': 'assistant',")
-    print("      'content': widget_code (complete JSX from downloads/)")
-    print("      // NOTE: No 'tool_calls' in assistant message")
+    print("      'content': '',")
+    print("      'tool_calls': [")
+    print("        {")
+    print("          'id': 'call_...',")
+    print("          'type': 'function',")
+    print("          'function': {")
+    print("            'name': 'WriteUbersichtWidgetToFileSystem',")
+    print("            'arguments': '{\"jsxContent\": \"...\"}'  // JSON-stringified widget code")
+    print("          }")
+    print("        }")
+    print("      ]")
     print("    }")
     print("  ]")
     print()
     print("Key Assumptions:")
     print("  • System prompt includes tool calling instructions")
     print("  • Tool definition is embedded in system message")
-    print("  • Assistant response contains full widget JSX code")
-    print("  • Assistant response does NOT include tool_calls field")
-    print("  • Matches Apple's schema.md format (see documentation)")
+    print("  • Assistant message contains tool_calls with content set to empty string ('')")
+    print("  • Tool call arguments contain widget code, JSON-stringified (adds escaping overhead)")
+    print("  • When tool_calls are present, content is empty (tool_calls are the primary response)")
+    print("  • Matches create_dataset.py output format")
     print()
     print("⚠️  Note: This structure is assumed/verified against create_dataset.py")
     print("   If you're evaluating alternative structures, modify this script accordingly.")
@@ -278,7 +324,8 @@ def print_analysis(results, max_sequence_length=DEFAULT_MAX_SEQUENCE_LENGTH):
         print(f"System prompt:        {avg_result['system_prompt_tokens']:>6} tokens")
         print(f"Tool definition:      {avg_result['tool_def_tokens']:>6} tokens")
         print(f"User prompt:          {avg_result['user_prompt_tokens']:>6} tokens")
-        print(f"Widget code:          {avg_result['widget_code_tokens']:>6} tokens")
+        print(f"Widget code (raw):    {avg_result['widget_code_tokens']:>6} tokens")
+        print(f"JSON escaping overhead: {avg_result['json_escaping_overhead_tokens']:>6} tokens")
         print(f"JSON structure:       {avg_result['structure_overhead_tokens']:>6} tokens")
         print(f"{'-'*40}")
         print(f"TOTAL:                {avg_result['estimated_total_tokens']:>6} tokens")

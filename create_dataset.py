@@ -5,6 +5,7 @@ import csv
 import glob
 import argparse
 import re
+import uuid
 from training_config import systemPrompt, TOOL_DEFINITION
 
 # Rough token estimation: ~4 chars per token for code/text (matches evaluate_training_data_size.py)
@@ -203,6 +204,15 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
         """Write dataset to JSONL file in chat format with tools"""
         with open(output_file, 'w', encoding='utf-8') as f:
             for entry in dataset:
+                # Generate a tool call ID
+                tool_call_id = f"call_{uuid.uuid4().hex[:16]}"
+                
+                # Create the arguments JSON object, then stringify it for the tool call
+                arguments_obj = {
+                    'jsxContent': entry['code']
+                }
+                arguments_json = json.dumps(arguments_obj, ensure_ascii=False)
+                
                 json_entry = [
                     {
                         'role': 'system', 
@@ -212,7 +222,17 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
                     {'role': 'user', 'content': entry['prompt']},
                     {
                         'role': 'assistant',
-                        'content': entry['code']
+                        'content': '',
+                        'tool_calls': [
+                            {
+                                'id': tool_call_id,
+                                'type': 'function',
+                                'function': {
+                                    'name': 'WriteUbersichtWidgetToFileSystem',
+                                    'arguments': arguments_json
+                                }
+                            }
+                        ]
                     }
                 ]
                 f.write(json.dumps(json_entry, ensure_ascii=False) + '\n')
