@@ -22,7 +22,7 @@ systemPrompt = """
         - export const className: CSS positioning for absolute placement (string)
 
         Example format (customize for each request):
-        WriteUbersichtWidgetToFileSystem({jsxContent: `export const command = "echo hello"; export const refreshFrequency = 1000; export const render = ({output}) => { return <div>{output}</div>; }; export const className = "top: 20px; left: 20px;"`})
+        WriteUbersichtWidgetToFileSystem({"jsxContent": "export const command = \"echo hello\"; export const refreshFrequency = 1000; export const render = ({output}) => { return <div>{output}</div>; }; export const className = \"top: 20px; left: 20px;\";"})
 
         ### Rules:
         - The terms "ubersicht widget", "widget", "a widget", "the widget" must all be interpreted as "Übersicht widget"
