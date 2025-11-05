@@ -38,7 +38,6 @@ Thumbs.db
 # Project specific
 downloads/
 datasets/
-prompts/
 trained_adapter/
 download_status.json
 widget_processing_results.csv
