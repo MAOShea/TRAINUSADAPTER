@@ -103,6 +103,85 @@ The widget should [key functionality from JSX analysis]
 using React/JSX with [styling approach].
 ```
 
+**Prompt Variations for Training Diversity:**
+
+To reduce bias toward "Create an Übersicht widget" language and improve model generalization, consider using diverse opening phrases. Here are 52 variations organized by category:
+
+**Direct Action Verbs:**
+1. `Create an Übersicht widget that`
+2. `Build an Übersicht widget that`
+3. `Make an Übersicht widget that`
+4. `Design an Übersicht widget that`
+5. `Generate an Übersicht widget that`
+6. `Build me an Übersicht widget that`
+7. `Create a widget that`
+8. `Build a widget that`
+9. `Make a widget that`
+10. `Design a widget that`
+
+**Indirect Requests:**
+11. `I need an Übersicht widget that`
+12. `I want an Übersicht widget that`
+13. `I'd like an Übersicht widget that`
+14. `I need a widget that`
+15. `I want a widget that`
+16. `I'd like a widget that`
+17. `I'm looking for an Übersicht widget that`
+18. `I'm looking for a widget that`
+
+**Question Forms:**
+19. `Can you create an Übersicht widget that`
+20. `Can you build an Übersicht widget that`
+21. `Can you make an Übersicht widget that`
+22. `Can you design an Übersicht widget that`
+23. `Could you create an Übersicht widget that`
+24. `Could you build an Übersicht widget that`
+25. `Would you create an Übersicht widget that`
+26. `Can you create a widget that`
+27. `Can you build a widget that`
+28. `Can you make a widget that`
+
+**Descriptive Starts (No Explicit "Create"):**
+29. `An Übersicht widget that`
+30. `A widget that`
+31. `Show me an Übersicht widget that`
+32. `Show me a widget that`
+33. `Display an Übersicht widget that`
+34. `Display a widget that`
+35. `Give me an Übersicht widget that`
+36. `Give me a widget that`
+
+**Imperative/Command Forms:**
+37. `Build an Übersicht widget for`
+38. `Make an Übersicht widget for`
+39. `Create an Übersicht widget for`
+40. `Design an Übersicht widget for`
+
+**Action-Focused:**
+41. `Generate a widget that`
+42. `Produce an Übersicht widget that`
+43. `Develop an Übersicht widget that`
+44. `Implement an Übersicht widget that`
+
+**Contextual Starts:**
+45. `I'm building an Übersicht widget that`
+46. `I'm making an Übersicht widget that`
+47. `I'm creating an Übersicht widget that`
+48. `I'm designing an Übersicht widget that`
+
+**Casual/Informal:**
+49. `Whip up an Übersicht widget that`
+50. `Put together an Übersicht widget that`
+51. `Come up with an Übersicht widget that`
+52. `Make me an Übersicht widget that`
+
+**Recommended Distribution:**
+- 30-40%: Direct action verbs (1-10)
+- 20-25%: Indirect requests (11-18)
+- 15-20%: Question forms (19-28)
+- 10-15%: Descriptive starts (29-36)
+- 5-10%: Others (37-52)
+
 **Dependencies:** Stage 2 must complete  
 **Next Stage:** Stage 4 (optional) or Stage 5
 
