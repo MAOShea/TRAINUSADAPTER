@@ -4,9 +4,8 @@ import random
 import csv
 import glob
 import argparse
-import re
-import uuid
-from training_config import systemPrompt, TOOL_DEFINITION
+import sys
+from training_config import systemPrompt_v6, TOOL_DEFINITION
 
 # Rough token estimation: ~4 chars per token for code/text (matches evaluate_training_data_size.py)
 CHARS_PER_TOKEN = 4
@@ -200,12 +199,22 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
     valid_data = data[train_size:train_size + valid_size]
     test_data = data[train_size + valid_size:]
     
+    def validate_jsonl_file(file_path):
+        """Validate that all lines in a JSONL file contain valid JSON"""
+        with open(file_path, 'r', encoding='utf-8') as f:
+            for i, line in enumerate(f, 1):
+                try:
+                    json.loads(line)
+                except json.JSONDecodeError as e:
+                    print(f'Error in {file_path}, line {i}: {e}')
+                    sys.exit(1)
+    
     def write_jsonl(dataset, output_file):
         """Write dataset to JSONL file in chat format with tools"""
         with open(output_file, 'w', encoding='utf-8') as f:
             for entry in dataset:
                 # Generate a tool call ID
-                tool_call_id = f"call_{uuid.uuid4().hex[:16]}"
+#                tool_call_id = f"call_{uuid.uuid4().hex[:16]}"
                 
                 # Create the arguments JSON object, then stringify it for the tool call
                 arguments_obj = {
@@ -216,7 +225,7 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
                 json_entry = [
                     {
                         'role': 'system', 
-                        'content': systemPrompt,
+                        'content': systemPrompt_v6,
                         'tools': [TOOL_DEFINITION]
                     },
                     {'role': 'user', 'content': entry['prompt']},
@@ -225,7 +234,7 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
                         'content': '',
                         'tool_calls': [
                             {
-                                'id': tool_call_id,
+#                                'id': tool_call_id,
                                 'type': 'function',
                                 'function': {
                                     'name': 'WriteUbersichtWidgetToFileSystem',
@@ -241,6 +250,13 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
     write_jsonl(train_data, train_file)
     write_jsonl(valid_data, valid_file)
     write_jsonl(test_data, test_file)
+    
+    # Validate generated JSONL files
+    print('Validating generated JSONL files...')
+    validate_jsonl_file(train_file)
+    validate_jsonl_file(valid_file)
+    validate_jsonl_file(test_file)
+    print('All lines valid!')
     
     print(f'Dataset created: {len(train_data)} train, {len(valid_data)} valid, {len(test_data)} test')
     print(f'Files written to: {dataset_dir}')

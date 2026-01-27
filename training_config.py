@@ -48,6 +48,10 @@ systemPrompt = """
         - "Add a border to the widget" → Generate updated widget code → Use WriteUbersichtWidgetToFileSystem tool
         """
 
+systemPrompt_v6 = """
+        A conversation between a user and a helpful assistant. You are an Übersicht widget designer.
+        """
+
 TOOL_DEFINITION = {
     'type': 'function',
     'function': {

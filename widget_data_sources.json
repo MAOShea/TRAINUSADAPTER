@@ -1,0 +1,3719 @@
+{
+  "UeberPlayer": {
+    "sources": [
+      "calendar",
+      "music",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "CryptoMarketCap": {
+    "sources": [
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "currenttrack": {
+    "sources": [
+      "calendar",
+      "music",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "gitlabissues": {
+    "sources": [
+      "calendar",
+      "github",
+      "gitlab",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "uebersicht-jira-filter": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "PostNord": {
+    "sources": [
+      "unknown"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "task-deadline": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "none",
+      "rss",
+      "system",
+      "time",
+      "todo",
+      "unknown"
+    ],
+    "file_count": 17,
+    "jsx_count": 17,
+    "coffee_count": 0
+  },
+  "helldivers": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "uebersicht-hacker-news": {
+    "sources": [
+      "calendar",
+      "news",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "oura": {
+    "sources": [
+      "crypto",
+      "location",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "MiniBar-Widget": {
+    "sources": [
+      "calendar",
+      "docker",
+      "rss",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "FroxceySidebar": {
+    "sources": [
+      "calendar",
+      "ip",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "istats": {
+    "sources": [
+      "calendar",
+      "system",
+      "todo",
+      "unknown",
+      "weather"
+    ],
+    "file_count": 4,
+    "jsx_count": 4,
+    "coffee_count": 0
+  },
+  "monit": {
+    "sources": [
+      "calendar",
+      "system",
+      "time",
+      "todo",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "os-version-uptime": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 1,
+    "coffee_count": 1
+  },
+  "quotes": {
+    "sources": [
+      "quote",
+      "system",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "github": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "github",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "microcalendar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "time-remaining": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "docker-box": {
+    "sources": [
+      "calendar",
+      "docker",
+      "rss",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "RedditMembers": {
+    "sources": [
+      "docker",
+      "news",
+      "quote",
+      "system",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "Docker": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "wttr-moon": {
+    "sources": [
+      "github",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "fetch": {
+    "sources": [
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "leetcode-glance": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "ubersicht-neofetch": {
+    "sources": [
+      "crypto"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "newsticker": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "news",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "wallpaper": {
+    "sources": [
+      "docker"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "TodoListWidget": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "news",
+      "time",
+      "todo",
+      "weather"
+    ],
+    "file_count": 4,
+    "jsx_count": 4,
+    "coffee_count": 0
+  },
+  "trash-empty": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "Persona_5_Calendar": {
+    "sources": [
+      "calendar",
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "particles": {
+    "sources": [
+      "calendar",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "wttr": {
+    "sources": [
+      "calendar",
+      "location",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 2,
+    "jsx_count": 1,
+    "coffee_count": 1
+  },
+  "position": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "leetcode-activity-widget": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "vintage-apple": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "OnlineChecker": {
+    "sources": [
+      "none"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "uebersicht-BinanceCryptoPrices": {
+    "sources": [
+      "crypto",
+      "system",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "purpleaqi": {
+    "sources": [
+      "calendar",
+      "docker",
+      "email",
+      "location",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "drunk-o-clock": {
+    "sources": [
+      "crypto",
+      "news",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "Really-Simple-Spotify-Widget": {
+    "sources": [
+      "calendar",
+      "docker",
+      "music",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "photo-frame": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "ubersicht-clock": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "Music-Craft": {
+    "sources": [
+      "calendar",
+      "docker",
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "TautulliWidget": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "battery-bar": {
+    "sources": [
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "ubersitch-world-clock": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "profile": {
+    "sources": [
+      "none"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "french-revolutionary-clock": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "simple-white-calendar": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "zelda-battery": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "gitissues": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "github",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "WeatherTV": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "icalPal": {
+    "sources": [
+      "calendar",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "quote-of-the-day": {
+    "sources": [
+      "calendar",
+      "docker",
+      "quote",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "simple-calendar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "location",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "walking_fam_pixarts": {
+    "sources": [
+      "none",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 4,
+    "jsx_count": 4,
+    "coffee_count": 0
+  },
+  "bar": {
+    "sources": [
+      "calendar",
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 7,
+    "jsx_count": 7,
+    "coffee_count": 0
+  },
+  "MarchCovid": {
+    "sources": [
+      "calendar",
+      "covid",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "APOD": {
+    "sources": [
+      "nasa",
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 2,
+    "coffee_count": 0
+  },
+  "fuzzytime-with-date": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 1,
+    "coffee_count": 1
+  },
+  "world-clock": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "stock",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "gotify": {
+    "sources": [
+      "calendar",
+      "github",
+      "system",
+      "time",
+      "todo",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "airflo": {
+    "sources": [
+      "calendar",
+      "rss",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "aerial": {
+    "sources": [
+      "calendar",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "FastFetch": {
+    "sources": [
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "StatBar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "rss",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "ip": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "PBSJobMonitor": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "taylor-swift-quote": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "quote",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "simple-shortcuts": {
+    "sources": [
+      "unknown"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "ubershicht-calendar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 1,
+    "coffee_count": 0
+  },
+  "mybar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "music",
+      "none",
+      "quote",
+      "rss",
+      "system",
+      "time"
+    ],
+    "file_count": 6,
+    "jsx_count": 6,
+    "coffee_count": 0
+  },
+  "weather-underground": {
+    "sources": [
+      "calendar",
+      "docker",
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "NetworkInfo": {
+    "sources": [
+      "crypto",
+      "ip",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "rdio-current-track": {
+    "sources": [
+      "music"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "batteryDetails": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "system-control": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "blur": {
+    "sources": [
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "memory-bar": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "lightroom-latest": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "XiamiRadio": {
+    "sources": [
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "randomQuranAyah": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "macports": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "putio": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "msq.arrays": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "music",
+      "news",
+      "quote",
+      "rss",
+      "stock",
+      "system",
+      "time",
+      "todo",
+      "transit",
+      "weather"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "omnifocusflags": {
+    "sources": [
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ltc-price": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "tsushin_small": {
+    "sources": [
+      "calendar",
+      "docker",
+      "stock",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ExchangeMeetings": {
+    "sources": [
+      "calendar",
+      "email",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "openhab3": {
+    "sources": [
+      "location",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "sys-monitor": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "iostats": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "kubernetes": {
+    "sources": [
+      "docker",
+      "kubernetes",
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "wifi-tx-speed": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "icinga": {
+    "sources": [
+      "unknown"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ubersichtGitInfo": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "weather": {
+    "sources": [
+      "calendar",
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "rescuetime-bar": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "darksky": {
+    "sources": [
+      "calendar",
+      "docker",
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Set-networking": {
+    "sources": [
+      "ip",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "digitaldesktopclock": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "terminal": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "WiFi-SSID-Widget": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "transmission": {
+    "sources": [
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "reminders": {
+    "sources": [
+      "crypto",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "BackgroundGrid": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "top-mem": {
+    "sources": [
+      "rss",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Playbox": {
+    "sources": [
+      "calendar",
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "strip-calendar": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "valerian-time": {
+    "sources": [
+      "crypto",
+      "email",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "gmail": {
+    "sources": [
+      "crypto",
+      "docker",
+      "email",
+      "system",
+      "time",
+      "todo",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "social_media": {
+    "sources": [
+      "news",
+      "rss",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "circleci": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "roundClock": {
+    "sources": [
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "youtube": {
+    "sources": [
+      "rss",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "simple-neo-clock": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ubersicht-video-widget": {
+    "sources": [
+      "docker"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "lastfm": {
+    "sources": [
+      "crypto",
+      "email",
+      "music",
+      "quote",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "disk-usage": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "SimpleDate": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "mail-count-read": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "brainyquote": {
+    "sources": [
+      "quote",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "calendar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "location",
+      "system",
+      "time",
+      "todo",
+      "weather"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "square_word_clock_hangul": {
+    "sources": [
+      "crypto",
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Evangelion_style_dashboard": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "email",
+      "ip",
+      "music",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "uebersicht-central-logo-widget": {
+    "sources": [
+      "unknown"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "anydo": {
+    "sources": [
+      "crypto",
+      "email",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Trello": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "authentic": {
+    "sources": [
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "yr4ubersicht": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Shades-of-K": {
+    "sources": [
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "simple-clock": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "moon-phase": {
+    "sources": [
+      "calendar",
+      "location",
+      "time",
+      "todo",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "todolist": {
+    "sources": [
+      "system",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "widget": {
+    "sources": [
+      "calendar",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "SolTunes": {
+    "sources": [
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "NetFullSysInfo.Widget": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "ip",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "systembatt": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "calvin-hobbes": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Folder Launcher": {
+    "sources": [
+      "music",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "AnalogClock": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "raspberryData": {
+    "sources": [
+      "calendar",
+      "ip",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "waifu": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "WorldClock": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "location",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "coding-net-notifications": {
+    "sources": [
+      "crypto",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "quake-watch-2": {
+    "sources": [
+      "crypto",
+      "location",
+      "rss",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "unreadmail": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "btc": {
+    "sources": [
+      "crypto"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "marketcap": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "every-color": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "margins.coffee": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "things": {
+    "sources": [
+      "docker",
+      "quote",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "git-stats": {
+    "sources": [
+      "calendar"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "multiple-locations-weather": {
+    "sources": [
+      "location",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "cuteical": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "trellocard-master": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "kf_control.coffee": {
+    "sources": [
+      "crypto",
+      "ip",
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "uptime-display": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Time-Craft": {
+    "sources": [
+      "crypto",
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ToDo": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "time",
+      "todo",
+      "transit"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "byrthdays": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ch_meteo": {
+    "sources": [
+      "calendar",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ironman-reactor": {
+    "sources": [
+      "docker",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "NextGame_CurrentGame-NHL": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "location",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "marswx": {
+    "sources": [
+      "calendar",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Daily-Random-Kanji": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "helpdesk": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Mac OS Version": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "public_ip2": {
+    "sources": [
+      "ip",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "pretty-weather": {
+    "sources": [
+      "location",
+      "quote",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "to-do-list": {
+    "sources": [
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "fan-bar": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "wunderlist-tasks": {
+    "sources": [
+      "email",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "crystal": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "rss",
+      "system",
+      "time",
+      "todo",
+      "transit"
+    ],
+    "file_count": 9,
+    "jsx_count": 0,
+    "coffee_count": 9
+  },
+  "word-of-the": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "IMDbScraper": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "conky-for-mac-widget": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "network-throughput": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "commands-feed": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "inspirational-quote": {
+    "sources": [
+      "quote",
+      "rss",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ubersicht-instframe": {
+    "sources": [
+      "docker",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "time_since": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "load": {
+    "sources": [
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "sys-mon-set": {
+    "sources": [
+      "ip",
+      "rss",
+      "system",
+      "time"
+    ],
+    "file_count": 7,
+    "jsx_count": 0,
+    "coffee_count": 7
+  },
+  "cpu-bar": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "uber-cjdns": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "wanikani_lesandrev": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "stock": {
+    "sources": [
+      "stock",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "sensu": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "now-playing": {
+    "sources": [
+      "calendar",
+      "docker",
+      "music",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "cpumeter": {
+    "sources": [
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "mini-system-charts": {
+    "sources": [
+      "calendar",
+      "docker",
+      "none",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 5,
+    "jsx_count": 0,
+    "coffee_count": 5
+  },
+  "sps": {
+    "sources": [
+      "quote",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Twitch": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "craigslist": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "zendesk": {
+    "sources": [
+      "email",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "devicebatt": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "inbox_for_todoist": {
+    "sources": [
+      "email",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "solid.coffee": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "diskMeter": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "fever": {
+    "sources": [
+      "email",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "NightShades": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ubersicht-ios-clock-upnext-weather": {
+    "sources": [
+      "calendar",
+      "email",
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 3,
+    "jsx_count": 0,
+    "coffee_count": 3
+  },
+  "reddit-karma": {
+    "sources": [
+      "news"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "doviz-ticker": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "hddspace": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "kaspersky-threats": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "background": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "commandment-11": {
+    "sources": [
+      "crypto",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "github-minimal": {
+    "sources": [
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "btceur": {
+    "sources": [
+      "crypto"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Wordclock_NL": {
+    "sources": [
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "canada_radar": {
+    "sources": [
+      "calendar",
+      "docker",
+      "location",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 3,
+    "jsx_count": 0,
+    "coffee_count": 3
+  },
+  "Cryptocurrency": {
+    "sources": [
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "simple-analog-clock": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "dockermachinestats": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Strava": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "loadchart": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "SpotTheStation": {
+    "sources": [
+      "nasa",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "cpu_history": {
+    "sources": [
+      "calendar",
+      "docker",
+      "stock",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "stockx": {
+    "sources": [
+      "calendar",
+      "stock",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "CheatSheet": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "lacompagniedesombres": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Spotify-AdSilencer": {
+    "sources": [
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ping-history": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "BatteryCharge": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "CasinoCoin": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "stackexchange": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "twitterProfile": {
+    "sources": [
+      "quote",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "wiki-holidays": {
+    "sources": [
+      "quote",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "battery_pro": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "bluetooth-battery-bar": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "german-word-of-the-day": {
+    "sources": [
+      "rss",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "disk-usage-bar": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "grid-launcher": {
+    "sources": [
+      "docker",
+      "music",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "memmeter": {
+    "sources": [
+      "system",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "currency-converter": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "time_until": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "daily-ancient-Chinese-prose": {
+    "sources": [
+      "docker",
+      "quote",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "clock-calendar": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "task": {
+    "sources": [
+      "crypto",
+      "docker",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "openHAB2": {
+    "sources": [
+      "location",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "github-notifications": {
+    "sources": [
+      "github",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "swap-usage": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "CurrLocation": {
+    "sources": [
+      "location",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Git-Log": {
+    "sources": [
+      "calendar",
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "loadbar": {
+    "sources": [
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "countdown": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "WunderlistTasksWidget": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "email",
+      "ip",
+      "none",
+      "system",
+      "time",
+      "todo",
+      "transit",
+      "weather"
+    ],
+    "file_count": 21,
+    "jsx_count": 0,
+    "coffee_count": 21
+  },
+  "vms": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "xkcd": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ical": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "qotd": {
+    "sources": [
+      "docker",
+      "quote",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "longviewer-widget": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "email",
+      "none",
+      "quote",
+      "system",
+      "time",
+      "todo",
+      "transit",
+      "weather"
+    ],
+    "file_count": 9,
+    "jsx_count": 0,
+    "coffee_count": 9
+  },
+  "useful-info": {
+    "sources": [
+      "ip",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "trash-size": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "TaskTable": {
+    "sources": [
+      "calendar",
+      "docker",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "cqupt-class": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ubersicht-youtube-video": {
+    "sources": [
+      "docker",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Security_Top4_Countdown": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "mbta": {
+    "sources": [
+      "crypto",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "simple-stocks": {
+    "sources": [
+      "quote",
+      "stock",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "btc-prices": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "tmstatus": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "iTunesMiniPlayer": {
+    "sources": [
+      "music",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ScoreTicker": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "public_ip": {
+    "sources": [
+      "ip",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "stock-tracker": {
+    "sources": [
+      "stock",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "black-bottom-bar": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "reddit-overview": {
+    "sources": [
+      "calendar",
+      "news",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "showInputSource": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Plexpy": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "iTunesLyrics": {
+    "sources": [
+      "music",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "lol-current-game": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "os_version_pro": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "black-bar": {
+    "sources": [
+      "none"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "mail": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "bdt-currency-converter": {
+    "sources": [
+      "docker",
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "nanopool": {
+    "sources": [
+      "crypto",
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "tasks": {
+    "sources": [
+      "calendar",
+      "docker",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "itunes-now": {
+    "sources": [
+      "music"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "imap-email-count": {
+    "sources": [
+      "email",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Upcoming-iCal-Events": {
+    "sources": [
+      "calendar",
+      "email",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "xkcd-random": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "uberist": {
+    "sources": [
+      "email",
+      "system",
+      "time",
+      "todo",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "things3": {
+    "sources": [
+      "docker",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "analog-clock": {
+    "sources": [
+      "crypto",
+      "email",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Aoede": {
+    "sources": [
+      "music",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "xrp": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "bart": {
+    "sources": [
+      "calendar",
+      "location",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "wordclock": {
+    "sources": [
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "CoverArt": {
+    "sources": [
+      "music",
+      "stock",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "remainingDays.coffee": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "minimal-forecast": {
+    "sources": [
+      "location",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "kindle-clippings": {
+    "sources": [
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "scrolling-cpu-meter": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Sidebar": {
+    "sources": [
+      "calendar",
+      "location",
+      "music",
+      "quote",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 8,
+    "jsx_count": 0,
+    "coffee_count": 8
+  },
+  "lol-stats": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "minimal_weather": {
+    "sources": [
+      "docker",
+      "location",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "StockTicker": {
+    "sources": [
+      "quote",
+      "stock",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "prayer": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "location",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "WifiDataMerakiColorized": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 4,
+    "jsx_count": 0,
+    "coffee_count": 4
+  },
+  "SmoothAnalogClock": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "statuscake": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "macos-version-and-uptime": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "sunradar": {
+    "sources": [
+      "calendar",
+      "location",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "Now": {
+    "sources": [
+      "unknown"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "worldcup": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "spotify-current-track": {
+    "sources": [
+      "music"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "binary-clock": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "only-this": {
+    "sources": [
+      "none"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "btc-usd": {
+    "sources": [
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "pingo": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "timeinwords": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "fancy-datetime": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "weathernow": {
+    "sources": [
+      "calendar",
+      "location",
+      "time",
+      "todo",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "fuzzytime": {
+    "sources": [
+      "crypto",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "uptime_pro": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "astronauts": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "MacOS9": {
+    "sources": [
+      "crypto",
+      "location",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "top-cpu": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "vsts": {
+    "sources": [
+      "calendar",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "xkcd-ultimate": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "checkProxyUrl": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "check-urls": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "wildstar-server-status": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "myschedule": {
+    "sources": [
+      "quote",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "earth-view": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "luminous-time": {
+    "sources": [
+      "crypto",
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "timemachine": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "pic-display": {
+    "sources": [
+      "crypto"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "battery": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "calendar-and-inner-clock": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "ML_Big3_Countdown": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "RSSs": {
+    "sources": [
+      "rss"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "iwn": {
+    "sources": [
+      "calendar",
+      "location",
+      "time",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "morning": {
+    "sources": [
+      "crypto",
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "time-of-angels": {
+    "sources": [
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "AirPods": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "daytime-to-do-list": {
+    "sources": [
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "searchbar": {
+    "sources": [
+      "crypto",
+      "docker"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "dockercontainers": {
+    "sources": [
+      "docker",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "muni": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "mc": {
+    "sources": [
+      "crypto",
+      "email",
+      "rss",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "TheOneWidget": {
+    "sources": [
+      "calendar",
+      "crypto",
+      "docker",
+      "ip",
+      "location",
+      "music",
+      "rss",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 27,
+    "jsx_count": 0,
+    "coffee_count": 27
+  },
+  "Today": {
+    "sources": [
+      "news",
+      "rss",
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 4,
+    "jsx_count": 0,
+    "coffee_count": 4
+  },
+  "justthedate": {
+    "sources": [
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "gitfinder": {
+    "sources": [
+      "system",
+      "time",
+      "weather"
+    ],
+    "file_count": 2,
+    "jsx_count": 0,
+    "coffee_count": 2
+  },
+  "load-avg": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "diskusage-bar": {
+    "sources": [
+      "docker",
+      "system",
+      "time",
+      "transit",
+      "weather"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "air-quality": {
+    "sources": [
+      "rss",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "radioDeejay_nowPlaying": {
+    "sources": [
+      "docker",
+      "music",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "taskpaper": {
+    "sources": [
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "fever-rss": {
+    "sources": [
+      "rss",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "captain america civil warrior shield": {
+    "sources": [
+      "docker",
+      "system"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "modifiable-clock": {
+    "sources": [
+      "calendar",
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "dailybibleverse": {
+    "sources": [
+      "quote",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "yinyang-lavalamp": {
+    "sources": [
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "FlightPriceTracker": {
+    "sources": [
+      "docker",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "taskwarrior-ready": {
+    "sources": [
+      "calendar",
+      "email",
+      "system",
+      "time",
+      "todo"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "vertical-calendar": {
+    "sources": [
+      "calendar",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "fritzBoxPro": {
+    "sources": [
+      "calendar",
+      "docker",
+      "email",
+      "ip",
+      "system",
+      "time",
+      "transit"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  },
+  "cpu-usage-bar": {
+    "sources": [
+      "system",
+      "time"
+    ],
+    "file_count": 1,
+    "jsx_count": 0,
+    "coffee_count": 1
+  }
+}
