@@ -19,7 +19,7 @@ This document describes how all Python scripts work together to create training 
 5. **Size Evaluation** (Optional) → `evaluate_training_data_size.py` → Evaluates token counts, generates strategy file for create_dataset.py
    - Optional: `analyze_widget_sizes.py` for quick widget-only check
 
-6. **Dataset Generation** → `create_dataset.py --csv widget_processing_results.csv --set {name}` → Creates `datasets/{name}/*.jsonl`
+6. **Dataset Generation** → `create_dataset.py --csv widget_processing_results.csv --set {name} --system-prompt systemPrompt_v6` → Creates `datasets/{name}/*.jsonl`
 
 7. **Model Training** → Apple's adapter training toolkit → Trains adapter from JSONL files
 
@@ -479,7 +479,7 @@ Each line = one training example as JSON array:
 
 5. **Generate Dataset:**
    ```bash
-   python3 create_dataset.py --csv widget_processing_results.csv --set my_dataset_v1
+   python3 create_dataset.py --csv widget_processing_results.csv --set my_dataset_v1 --system-prompt systemPrompt_v6
    ```
 
 6. **Train Model:**

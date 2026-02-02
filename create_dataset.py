@@ -5,7 +5,8 @@ import csv
 import glob
 import argparse
 import sys
-from training_config import systemPrompt_v6, TOOL_DEFINITION
+import training_config
+from training_config import TOOL_DEFINITION
 
 # Rough token estimation: ~4 chars per token for code/text (matches evaluate_training_data_size.py)
 CHARS_PER_TOKEN = 4
@@ -54,7 +55,32 @@ def load_strategy(strategy_file='training_data_strategy.json'):
         
 # Extraction functions removed - now using complete widget code as jsxContent
 
-def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_data_strategy.json'):
+def resolve_system_prompt(prompt_name):
+    """Resolve a system prompt string by name from training_config."""
+    if not hasattr(training_config, prompt_name):
+        available = [
+            name for name in dir(training_config)
+            if name.startswith('systemPrompt')
+        ]
+        available_display = ', '.join(sorted(available)) or '(none)'
+        raise ValueError(
+            f"Unknown system prompt '{prompt_name}'. "
+            f"Available prompts: {available_display}"
+        )
+    prompt_value = getattr(training_config, prompt_name)
+    if not isinstance(prompt_value, str):
+        raise ValueError(
+            f"System prompt '{prompt_name}' is not a string."
+        )
+    return prompt_value
+
+
+def create_dataset_from_csv(
+    csv_file_path,
+    set_name,
+    strategy_file='training_data_strategy.json',
+    system_prompt_name='systemPrompt_v6',
+):
     """
     Create JSONL dataset files from CSV and widget code files.
     
@@ -64,6 +90,9 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
         strategy_file: Path to strategy JSON file (default: training_data_strategy.json)
     """
     
+    # Resolve system prompt once
+    system_prompt = resolve_system_prompt(system_prompt_name)
+
     # Create dataset directory in current project
     dataset_dir = f'datasets/{set_name}'
     os.makedirs(dataset_dir, exist_ok=True)
@@ -225,7 +254,7 @@ def create_dataset_from_csv(csv_file_path, set_name, strategy_file='training_dat
                 json_entry = [
                     {
                         'role': 'system', 
-                        'content': systemPrompt_v6,
+                        'content': system_prompt,
                         'tools': [TOOL_DEFINITION]
                     },
                     {'role': 'user', 'content': entry['prompt']},
@@ -265,12 +294,25 @@ def main():
     parser = argparse.ArgumentParser(description='Create JSONL dataset from widget CSV and code files')
     parser.add_argument('--csv', required=True, help='Path to widget_processing_results.csv')
     parser.add_argument('--set', required=True, help='Dataset name (creates folder under /datasets)')
-    parser.add_argument('--strategy', default='training_data_strategy.json', 
-                       help='Path to strategy JSON file for exclusions/truncations (default: training_data_strategy.json)')
+    parser.add_argument(
+        '--strategy',
+        default='training_data_strategy.json',
+        help='Path to strategy JSON file for exclusions/truncations (default: training_data_strategy.json)',
+    )
+    parser.add_argument(
+        '--system-prompt',
+        default='systemPrompt_v6',
+        help='Name of the system prompt string in training_config.py (default: systemPrompt_v6)',
+    )
     
     args = parser.parse_args()
     
-    create_dataset_from_csv(args.csv, args.set, args.strategy)
+    create_dataset_from_csv(
+        args.csv,
+        args.set,
+        args.strategy,
+        system_prompt_name=args.system_prompt,
+    )
 
 if __name__ == '__main__':
     main()

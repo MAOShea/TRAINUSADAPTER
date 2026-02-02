@@ -124,6 +124,7 @@ Generate JSONL files for Apple adapter model training from CSV and widget code f
 **Parameters:**
 - `--csv`: Path to the widget_processing_results.csv file
 - `--set`: Dataset name (creates folder under `/datasets`)
+- `--system-prompt`: Name of the system prompt string in `training_config.py` (default: `systemPrompt_v6`)
 
 **Output Structure:**
 ```

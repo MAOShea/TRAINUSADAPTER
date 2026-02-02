@@ -25,7 +25,7 @@ Your adapter was trained to generate JSX code but **not to call tools**. The bas
 ## What Needs to Be Done
 
 ### **1. Generate New Dataset**
-- **Run `create_dataset.py`** with the new simplified system prompt
+- **Run `create_dataset.py`** with the new simplified system prompt (use the `--system-prompt` flag)
 - **Verify tool calls** are generated correctly in JSONL files
 
 ### **2. Train the Adapter**
